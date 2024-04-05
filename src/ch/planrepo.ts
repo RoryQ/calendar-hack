@@ -47,6 +47,12 @@ export const availablePlans: AvailablePlan[] = [
     type: "5K",
   },
   {
+    url: Config.plansPath + "first_3plus2_nov_mara.json",
+    id: "first_3plus2_nov_mara",
+    name: "FIRST 3plus2 Novice Marathon Training Plan",
+    type: "Marathon",
+  },
+  {
     url: Config.plansPath + "frr_5k_01.json",
     id: "frr_5k_01",
     name: "Faster Road Racing: 5K Schedule 1",

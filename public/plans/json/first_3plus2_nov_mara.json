@@ -1,0 +1,458 @@
+{
+   "id": "first_3plus2_nov_mara",
+   "name": "FIRST 3plus2 Novice Marathon Training Plan",
+   "description": "RI = Recovery Interval; which may be a timed recovery interval or a distance that you walk/jog. \nPaces: HMP\u2014Half-Marathon Pace; ST\u2014Short Tempo; MT\u2014Mid Tempo; LT\u2014Long Tempo. A plus sign (+) followed by a figure indicates seconds per mile or kilometer. \nSee Tables 6.7\u20136.8.\nKey Run #1 begins with a 10\u201320-min warm-up and ends with a 10-min cool-down. \nSee Table 6.6 for target times.\n",
+   "units": "km",
+   "source": "https://www.amazon.com/Runners-World-Faster-3-Runs-Week/dp/0593232232/",
+   "type": "Marathon",
+   "schedule": [
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n10-20 min warm-up\n3 x {1.6}\n(400 RI)\n10 min cool-down",
+               "distance": 6.0
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{3} Easy\n{3} at Short Tempo\n{3} Easy\n({9})",
+               "distance": 9.0
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{13} at Marathon Pace + 19s/km or 30s/mi",
+               "distance": 13.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n4 x {0.8}\n(2 min RI)",
+               "distance": 3.2
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{1.5} Easy\n{8} at Mid Tempo\n{1.5} Easy\n({11})",
+               "distance": 11.0
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{14} at MP + 28s/km or 45s/mi",
+               "distance": 14.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n{1.2}, {1.0}, {0.8}, {0.6}, {0.4}\n(200 RI)",
+               "distance": 5.0
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{1.5} Easy\n{8} at Long Tempo\n{1.5} Easy\n({11})",
+               "distance": 11.0
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{16} at MP + 28s/km or 45s/mi",
+               "distance": 16.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n5 x {1.0}\n(400 RI)",
+               "distance": 7.0
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{1.5} Easy\n{7} at MT\n{1.5} Easy\n({10})",
+               "distance": 10.0
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{18} at MP + 28s/km or 45s/mi",
+               "distance": 18.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n3 x {1.6}",
+               "distance": 6.0
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{3} Easy\n{3} at ST\n{1.5} Easy\n({7.5})",
+               "distance": 7.5
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{19} at MP + 28s/km or 45s/mi",
+               "distance": 19.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n2 x {1.2}\n4 x {0.8}",
+               "distance": 5.6
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{1.5} Easy\n{8} at MT\n{1.5} Easy\n({11})",
+               "distance": 11.0
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{22} at MP + 28s/km or 45s/mi",
+               "distance": 22.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n6 x {0.8}\n(90 sec RI)",
+               "distance": 4.8
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{1.5} Easy\n{10} at LT\n{1.5} Easy\n({13})",
+               "distance": 13.0
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{13} at MP + 9s/km or 15s/mi",
+               "distance": 13.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n2 x (6 x {0.4})\n(90 sec RI)\n(2 min 30 sec RI between sets)",
+               "distance": 4.8
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{3} Easy\n{5} at ST\n{1.5} Easy\n({9.5})",
+               "distance": 9.5
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{24} at MP + 19s/km or 30s/mi",
+               "distance": 24.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n2 x {1.6}\n(60 sec RI)\n2 x {0.8}\n(60 sec RI)",
+               "distance": 4.8
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{1.5} Easy\n{7} at MT\n{1.5} Easy\n({10})",
+               "distance": 10
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{26} at MP + 19s/km or 30s/mi",
+               "distance": 26.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n4 x {1.2}\n(2 min RI)",
+               "distance": 4.8
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{16} at ST",
+               "distance": 16
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{19} at MP + 12s/km or 20s/mi",
+               "distance": 19.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n{1}, {2}, {1}, {1}\n(400 RI)",
+               "distance": 6.6
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{1.5} Easy\n{8} at MT\n{1.5} Easy\n({11})",
+               "distance": 11
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{29} at MP + 28s/km or 45s/mi",
+               "distance": 29.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n3 x {1.6}\n(400 RI)",
+               "distance": 6.0
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{16} at MT",
+               "distance": 16
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{21} at MP + 9s/km or 15s/mi",
+               "distance": 21.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n10 x {0.4}\n(400 RI)",
+               "distance": 8.0
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{13} at MT",
+               "distance": 13
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{32} at MP + 19s/km or 30s/mi",
+               "distance": 32.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n8 x {0.8}\n(90 sec RI)",
+               "distance": 6.4
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{1.5} Easy\n{8} at MT\n{1.5} Easy\n({11})",
+               "distance": 11
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{21} at MP",
+               "distance": 21.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n5 x {1.0}\n(400 RI)",
+               "distance": 7
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{3} Easy\n{5} at ST\n{1.5} Easy\n({9.5})",
+               "distance": 9.5
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{13} at MP",
+               "distance": 21.0
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Track Repeats\n6 x {0.4}\n(400 RI)",
+               "distance": 4.8
+            },
+            {
+               "title": "Cross-Train"
+            },
+            {
+               "title": "Tempo Run\n{5} at MT\n({9.5})",
+               "distance": 9.5
+            },
+            {
+               "title": "Rest"
+            },
+            {
+               "title": "Long Run\n{42.2} at MP",
+               "distance": 42.2
+            },
+            {
+               "title": "Cross-Train or Rest"
+            }
+         ]
+      }
+   ]
+}

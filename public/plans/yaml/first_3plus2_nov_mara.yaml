@@ -1,0 +1,372 @@
+id: first_3plus2_nov_mara
+name: FIRST 3plus2 Novice Marathon Training Plan
+description: |
+  RI = Recovery Interval; which may be a timed recovery interval or a distance that you walk/jog. 
+  Paces: HMP—Half-Marathon Pace; ST—Short Tempo; MT—Mid Tempo; LT—Long Tempo. A plus sign (+) followed by a figure indicates seconds per mile or kilometer. 
+  See Tables 6.7–6.8.
+  Key Run #1 begins with a 10–20-min warm-up and ends with a 10-min cool-down. 
+  See Table 6.6 for target times.
+units: km
+source: "https://www.amazon.com/Runners-World-Faster-3-Runs-Week/dp/0593232232/"
+type: Marathon
+schedule:
+# Week 16
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      10-20 min warm-up
+      3 x {1.6}
+      (400 RI)
+      10 min cool-down
+    distance: 6.0
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {3} Easy
+      {3} at Short Tempo
+      {3} Easy
+      ({9})
+    distance: 9.0
+  - title: Rest
+  - title: |-
+      Long Run
+      {13} at Marathon Pace + 19s/km or 30s/mi
+    distance: 13.0
+  - title: Cross-Train or Rest
+
+# Week 15
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      4 x {0.8}
+      (2 min RI)
+    distance: 3.2
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {1.5} Easy
+      {8} at Mid Tempo
+      {1.5} Easy
+      ({11})
+    distance: 11.0
+  - title: Rest
+  - title: |-
+      Long Run
+      {14} at MP + 28s/km or 45s/mi
+    distance: 14.0
+  - title: Cross-Train or Rest
+
+# Week 14
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      {1.2}, {1.0}, {0.8}, {0.6}, {0.4}
+      (200 RI)
+    distance: 5.0
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {1.5} Easy
+      {8} at Long Tempo
+      {1.5} Easy
+      ({11})
+    distance: 11.0
+  - title: Rest
+  - title: |-
+      Long Run
+      {16} at MP + 28s/km or 45s/mi
+    distance: 16.0
+  - title: Cross-Train or Rest
+
+# Week 13
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      5 x {1.0}
+      (400 RI)
+    distance: 7.0
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {1.5} Easy
+      {7} at MT
+      {1.5} Easy
+      ({10})
+    distance: 10.0
+  - title: Rest
+  - title: |-
+      Long Run
+      {18} at MP + 28s/km or 45s/mi
+    distance: 18.0
+  - title: Cross-Train or Rest
+
+# Week 12
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      3 x {1.6}
+    distance: 6.0
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {3} Easy
+      {3} at ST
+      {1.5} Easy
+      ({7.5})
+    distance: 7.5
+  - title: Rest
+  - title: |-
+      Long Run
+      {19} at MP + 28s/km or 45s/mi
+    distance: 19.0
+  - title: Cross-Train or Rest
+
+# Week 11
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      2 x {1.2}
+      4 x {0.8}
+    distance: 5.6
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {1.5} Easy
+      {8} at MT
+      {1.5} Easy
+      ({11})
+    distance: 11.0
+  - title: Rest
+  - title: |-
+      Long Run
+      {22} at MP + 28s/km or 45s/mi
+    distance: 22.0
+  - title: Cross-Train or Rest
+
+# Week 10
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      6 x {0.8}
+      (90 sec RI)
+    distance: 4.8
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {1.5} Easy
+      {10} at LT
+      {1.5} Easy
+      ({13})
+    distance: 13.0
+  - title: Rest
+  - title: |-
+      Long Run
+      {13} at MP + 9s/km or 15s/mi
+    distance: 13.0
+  - title: Cross-Train or Rest
+
+# Week 9
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      2 x (6 x {0.4})
+      (90 sec RI)
+      (2 min 30 sec RI between sets)
+    distance: 4.8
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {3} Easy
+      {5} at ST
+      {1.5} Easy
+      ({9.5})
+    distance: 9.5
+  - title: Rest
+  - title: |-
+      Long Run
+      {24} at MP + 19s/km or 30s/mi
+    distance: 24.0
+  - title: Cross-Train or Rest
+
+# Week 8
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      2 x {1.6}
+      (60 sec RI)
+      2 x {0.8}
+      (60 sec RI)
+    distance: 4.8
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {1.5} Easy
+      {7} at MT
+      {1.5} Easy
+      ({10})
+    distance: 10
+  - title: Rest
+  - title: |-
+      Long Run
+      {26} at MP + 19s/km or 30s/mi
+    distance: 26.0
+  - title: Cross-Train or Rest
+
+# Week 7
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      4 x {1.2}
+      (2 min RI)
+    distance: 4.8
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {16} at ST
+    distance: 16
+  - title: Rest
+  - title: |-
+      Long Run
+      {19} at MP + 12s/km or 20s/mi
+    distance: 19.0
+  - title: Cross-Train or Rest
+
+# Week 6
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      {1}, {2}, {1}, {1}
+      (400 RI)
+    distance: 6.6
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {1.5} Easy
+      {8} at MT
+      {1.5} Easy
+      ({11})
+    distance: 11
+  - title: Rest
+  - title: |-
+      Long Run
+      {29} at MP + 28s/km or 45s/mi
+    distance: 29.0
+  - title: Cross-Train or Rest
+
+# Week 5
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+        Track Repeats
+        3 x {1.6}
+        (400 RI)
+    distance: 6.0
+  - title: Cross-Train #2
+  - title: |-
+        Tempo Run
+        {16} at MT
+    distance: 16
+  - title: Rest
+  - title: |-
+        Long Run
+        {21} at MP + 9s/km or 15s/mi
+    distance: 21.0
+  - title: Cross-Train or Rest
+
+# Week 4
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      10 x {0.4}
+      (400 RI)
+    distance: 8.0
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {13} at MT
+    distance: 13
+  - title: Rest
+  - title: |-
+      Long Run
+      {32} at MP + 19s/km or 30s/mi
+    distance: 32.0
+  - title: Cross-Train or Rest
+
+# Week 3
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      8 x {0.8}
+      (90 sec RI)
+    distance: 6.4
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {1.5} Easy
+      {8} at MT
+      {1.5} Easy
+      ({11})
+    distance: 11
+  - title: Rest
+  - title: |-
+      Long Run
+      {21} at MP
+    distance: 21.0
+  - title: Cross-Train or Rest
+
+# Week 2
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      5 x {1.0}
+      (400 RI)
+    distance: 7
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {3} Easy
+      {5} at ST
+      {1.5} Easy
+      ({9.5})
+    distance: 9.5
+  - title: Rest
+  - title: |-
+      Long Run
+      {13} at MP
+    distance: 21.0
+  - title: Cross-Train or Rest
+
+  # Week 1
+- workouts:
+  - title: Cross-Train #1
+  - title: |-
+      Track Repeats
+      6 x {0.4}
+      (400 RI)
+    distance: 4.8
+  - title: Cross-Train #2
+  - title: |-
+      Tempo Run
+      {5} at MT
+      ({9.5})
+    distance: 9.5
+  - title: Rest
+  - title: |-
+      Long Run
+      {42.2} at MP
+    distance: 42.2
+  - title: Cross-Train or Rest
