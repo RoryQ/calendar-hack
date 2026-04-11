@@ -2,9 +2,9 @@
 
 Calendar Hack is a web application for runners who train for races. It renders a training program on a calendar and provides some basic editing features. It also provides for downloading the result as an iCal file which can be imported into any calendar application worth using.
 
-The project is hosted at [defy.org/hacks/calendarhack](https://www.defy.org/hacks/calendarhack)
+The project is hosted at [RoryQ.github.io/calendar-hack](https://RoryQ.github.io/calendar-hack)
 
-More project details are available on [the About page](https://www.defy.org/hacks/calendarhack/about)
+More project details are available on [the About page](https://RoryQ.github.io/calendar-hack/about)
 
 ## Contributing
 If you have a bugfix, a new feature, a new training plan, a UX/UI fix, or other contribution, please send a PR.
