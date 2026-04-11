@@ -1,7 +1,7 @@
 {
   "name": "calendar-hack",
   "version": "0.1.0",
-  "homepage": "https://RoryQ.github.io/calendar-hack/",
+  "homepage": "./",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,6 +15,7 @@
     "pretty": "prettier src --write"
   },
   "dependencies": {
+    "@garmin/fitsdk": "^21.195.0",
     "copy-to-clipboard": "3.3.3",
     "cross-fetch": "4.0.0",
     "date-fns": "4.1.0",

@@ -4,14 +4,15 @@
  * @param  {string} filename Filename
  * @param  {string} ext      Extention
  */
-export function download(events: string, filename: string, ext: string) {
-  if (!events) {
+export function download(data: BlobPart, filename: string, ext: string) {
+  if (!data) {
     return false;
   }
 
-  ext = typeof ext !== "undefined" ? ext : ".ics";
+  ext = typeof ext !== "undefined" ? ext : "ics";
   filename = typeof filename !== "undefined" ? filename : "calendar";
-  var blob = new Blob([events], { type: "text/x-vCalendar;charset=utf8;" });
+  const mimeType = ext === "fit" ? "application/octet-stream" : "text/x-vCalendar;charset=utf8;";
+  var blob = new Blob([data], { type: mimeType });
   downloadBlob(blob, `${filename}.${ext}`);
 }
 

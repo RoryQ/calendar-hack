@@ -30,12 +30,35 @@ export type RaceDistance = {
   defaultTime: number;
 };
 
+export type TargetType = "pace" | "heart_rate" | "power" | "cadence" | "open";
+
+export type StepType = "warmup" | "active" | "rest" | "cooldown" | "repeat";
+
+export type DurationUnit = "mi" | "km" | "m" | "min" | "sec";
+
+export interface WorkoutStep {
+  type: StepType;
+  name?: string;
+  duration?: {
+    value: number;
+    unit: DurationUnit;
+  };
+  target?: {
+    type: TargetType;
+    value?: string;
+    zone?: number;
+  };
+  count?: number;
+  steps?: WorkoutStep[];
+}
+
 export interface PlannedWorkout {
   title: string;
   description: string;
   tags: Tags[];
-  distance: number[];
+  distance: number | number[];
   units: Units;
+  steps?: WorkoutStep[];
 }
 
 export interface WeekSchedule {
@@ -66,8 +89,9 @@ export interface DayDetails {
   title: string;
   desc: string;
   tags: Tags[];
-  dist: number[];
+  dist: number | number[];
   sourceUnits: Units;
+  steps?: WorkoutStep[];
 }
 
 export type dayOfWeek =

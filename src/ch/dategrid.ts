@@ -34,6 +34,7 @@ export const key = (d: Date) => format(d, "yyyy/MM/dd");
 // Race plan is a TrainingPlan rendered for a specific goal race day plus all of the various
 // customizations applied to it by an end user.
 export interface RacePlan {
+  planId: string;
   planDates: PlanDates;
   raceType: RaceType;
   dateGrid: DateGrid<DayDetails>;
@@ -85,6 +86,10 @@ export class DateGrid<T> {
 
   get weekCount(): number {
     return this._weekCount;
+  }
+
+  get weekStartsOn(): WeekStartsOn {
+    return this._weekStartsOn;
   }
 
   get days(): Day<T>[] {
@@ -218,6 +223,36 @@ export class DateGrid<T> {
     const datesW2 = this.selectWeek(w2);
     for (let i = 0; i < datesW1.length; i++) {
       this.swap(datesW1[i], datesW2[i]);
+    }
+  }
+
+  offset(days: number) {
+    if (days === 0) return;
+    const newEvents = new Map<string, T>();
+    this._events.forEach((v, k) => {
+      const d = new Date(k);
+      const newD = addDays(d, days);
+      newEvents.set(key(newD), v);
+    });
+    this._events = newEvents;
+    if (this._min) this._min = addDays(this._min, days);
+    if (this._max) this._max = addDays(this._max, days);
+
+    if (this._max) {
+      this._last = startOfDay(
+        endOfWeek(this._max, { weekStartsOn: this._weekStartsOn }),
+      );
+    }
+    if (this._min) {
+      this._first = startOfWeek(this._min, {
+        weekStartsOn: this._weekStartsOn,
+      });
+    }
+    if (this._first && this._last) {
+      this._weekCount = differenceInWeeks(
+        startOfDay(addDays(this._last, 1)),
+        this._first,
+      );
     }
   }
 }

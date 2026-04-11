@@ -280,6 +280,11 @@ svg.drag-handle {
   }
 }
 
+.offset-controls {
+  display: flex;
+  align-items: center;
+}
+
 .calendar-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -542,4 +547,48 @@ svg.drag-handle {
 
 .footer {
   font-size: .7em;
+}
+
+.workout-steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+  font-size: 0.85em;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  padding-top: 0.5em;
+}
+
+.workout-step {
+  margin-bottom: 2px;
+}
+
+.step-type {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+
+.workout-step-repeat {
+  margin-top: 0.5em;
+  padding-left: 0.5em;
+  border-left: 2px solid var(--primary-color);
+}
+
+.workout-step-repeat > .workout-steps {
+  margin-top: 2px;
+  border-top: none;
+  padding-top: 0;
+  padding-left: 0.5em;
+}
+
+.fit-download-btn {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 0.65em;
+  padding: 0.2em 0.4em;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 }

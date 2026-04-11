@@ -1,0 +1,794 @@
+id: frr_8k10k_01_structured
+name: 'Faster Road Racing: 8K-10K Schedule 1 (Structured)'
+description: '"8K-10K Schedule 1: 30 to 42 Miles (48-67 km) per Week" from "Faster
+  Road Racing: 5K to Half Marathon" by Pete D. Pfitzinger and Philip Latter.'
+units: mi
+source: https://www.amazon.com/Faster-Road-Racing-Half-Marathon/dp/1450470459
+type: 10K
+schedule:
+- workouts:
+  - title: Rest or cross-training
+  - title: General aerobic + speed {6:10}
+    distance: 6.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+        name: "General aerobic"
+      - type: repeat
+        count: 6
+        steps:
+          - type: active
+            name: "Uphill"
+            duration: { value: 12, unit: sec }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 60, unit: sec }
+      - type: active
+        duration: { value: 1, unit: mi }
+        name: "Transition"
+      - type: repeat
+        count: 6
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 60, unit: sec }
+      - type: cooldown
+        duration: { value: 2, unit: mi }
+        name: "General aerobic"
+  - title: Endurance {8:13}
+    distance: 8.0
+    steps:
+      - type: active
+        duration: { value: 8, unit: mi }
+        name: "Endurance pace"
+  - title: Rest or cross-training
+  - title: Lactate threshold {7:11}
+    distance: 7.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 3
+        steps:
+          - type: active
+            name: "LT interval"
+            duration: { value: 8, unit: min }
+            target: { type: heart_rate, zone: 4 }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 3, unit: min }
+      - type: cooldown
+        duration: { value: 2, unit: mi }
+  - title: Rest or cross-training
+  - title: Endurance {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }
+        name: "Endurance pace"
+- workouts:
+  - title: Rest or cross-training
+  - title: Speed {6:10}
+    distance: 6.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Speed interval"
+            duration: { value: 200, unit: m }
+            target: { type: pace, value: "800m-mile" }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 200, unit: m }
+      - type: rest
+        name: "Recovery between sets"
+        duration: { value: 4, unit: min }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Speed interval"
+            duration: { value: 200, unit: m }
+            target: { type: pace, value: "800m-mile" }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 200, unit: m }
+      - type: cooldown
+        duration: { value: 2, unit: mi }
+  - title: Endurance {8:13}
+    distance: 8.0
+    steps:
+      - type: active
+        duration: { value: 8, unit: mi }
+  - title: Rest or cross-training
+  - title: Lactate threshold {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: active
+        name: "LT interval"
+        duration: { value: 10, unit: min }
+        target: { type: heart_rate, zone: 4 }
+      - type: rest
+        name: "Recovery"
+        duration: { value: 3, unit: min }
+      - type: active
+        name: "LT interval"
+        duration: { value: 10, unit: min }
+        target: { type: heart_rate, zone: 4 }
+      - type: rest
+        name: "Recovery"
+        duration: { value: 3, unit: min }
+      - type: active
+        name: "LT interval"
+        duration: { value: 8, unit: min }
+        target: { type: heart_rate, zone: 4 }
+      - type: cooldown
+        duration: { value: 2, unit: mi }
+  - title: Rest or cross-training
+  - title: Endurance {10:16}
+    distance: 10.0
+    steps:
+      - type: active
+        duration: { value: 10, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: General aerobic + speed {7:11}
+    distance: 7.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 6
+        steps:
+          - type: active
+            name: "Uphill"
+            duration: { value: 12, unit: sec }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 60, unit: sec }
+      - type: active
+        duration: { value: 1, unit: mi }
+        name: "Transition"
+      - type: repeat
+        count: 6
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 60, unit: sec }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: Endurance {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }
+  - title: Rest or cross-training
+  - title: VO₂max {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 6
+        steps:
+          - type: active
+            name: "Uphill VO2max"
+            duration: { value: 3, unit: min }
+            target: { type: heart_rate, zone: 5 }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 3, unit: min }
+      - type: cooldown
+        duration: { value: 2, unit: mi }
+  - title: Rest or cross-training
+  - title: Endurance {10:16}
+    distance: 10.0
+    steps:
+      - type: active
+        duration: { value: 10, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: Speed {7:11}
+    distance: 7.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Speed interval"
+            duration: { value: 200, unit: m }
+            target: { type: pace, value: "800m-mile" }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 200, unit: m }
+      - type: rest
+        name: "Recovery between sets"
+        duration: { value: 4, unit: min }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Speed interval"
+            duration: { value: 200, unit: m }
+            target: { type: pace, value: "800m-mile" }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 200, unit: m }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: General aerobic {7:11}
+    distance: 7.0
+    steps:
+      - type: active
+        duration: { value: 7, unit: mi }
+  - title: Rest or cross-training
+  - title: General aerobic {7:11}
+    distance: 7.0
+    steps:
+      - type: active
+        duration: { value: 7, unit: mi }
+  - title: Rest or cross-training
+  - title: General aerobic {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: General aerobic + speed {7:11}
+    distance: 7.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 6
+        steps:
+          - type: active
+            name: "Uphill"
+            duration: { value: 12, unit: sec }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 60, unit: sec }
+      - type: active
+        duration: { value: 1, unit: mi }
+        name: "Transition"
+      - type: repeat
+        count: 6
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 60, unit: sec }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: Endurance {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }
+  - title: Rest or cross-training
+  - title: VO₂max {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 5
+        steps:
+          - type: active
+            name: "VO2max interval"
+            duration: { value: 1000, unit: m }
+            target: { type: heart_rate, zone: 5 }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 4, unit: min }
+      - type: cooldown
+        duration: { value: 2, unit: mi }
+  - title: Recovery {3:5}
+    distance: 3.0
+    steps:
+      - type: active
+        duration: { value: 3, unit: mi }
+  - title: Endurance {10:16}
+    distance: 10.0
+    steps:
+      - type: active
+        duration: { value: 10, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: Speed {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 5
+        steps:
+          - type: active
+            name: "Speed interval"
+            duration: { value: 200, unit: m }
+            target: { type: pace, value: "800m-mile" }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 200, unit: m }
+      - type: rest
+        name: "Recovery between sets"
+        duration: { value: 4, unit: min }
+      - type: repeat
+        count: 5
+        steps:
+          - type: active
+            name: "Speed interval"
+            duration: { value: 200, unit: m }
+            target: { type: pace, value: "800m-mile" }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 200, unit: m }
+      - type: cooldown
+        duration: { value: 4, unit: mi }
+  - title: Endurance {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }
+  - title: Rest or cross-training
+  - title: Lactate threshold {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: active
+        name: "LT interval"
+        duration: { value: 12, unit: min }
+        target: { type: heart_rate, zone: 4 }
+      - type: rest
+        name: "Recovery"
+        duration: { value: 4, unit: min }
+      - type: active
+        name: "LT interval"
+        duration: { value: 10, unit: min }
+        target: { type: heart_rate, zone: 4 }
+      - type: rest
+        name: "Recovery"
+        duration: { value: 4, unit: min }
+      - type: active
+        name: "LT interval"
+        duration: { value: 10, unit: min }
+        target: { type: heart_rate, zone: 4 }
+      - type: cooldown
+        duration: { value: 2, unit: mi }
+  - title: Recovery {3:5}
+    distance: 3.0
+    steps:
+      - type: active
+        duration: { value: 3, unit: mi }
+  - title: Endurance {11:18}
+    distance: 11.0
+    steps:
+      - type: active
+        duration: { value: 11, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: General aerobic + speed {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 6
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 1, unit: min }
+      - type: rest
+        name: "Recovery between sets"
+        duration: { value: 3, unit: min }
+      - type: repeat
+        count: 6
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 1, unit: min }
+      - type: cooldown
+        duration: { value: 4, unit: mi }
+  - title: Endurance {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }
+  - title: Rest or cross-training
+  - title: Race pace {9:14}
+    distance: 9.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Race pace interval"
+            duration: { value: 1200, unit: m }
+            target: { type: pace, value: "10K" }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 3, unit: min }
+      - type: repeat
+        count: 2
+        steps:
+          - type: active
+            name: "Race pace interval"
+            duration: { value: 1000, unit: m }
+            target: { type: pace, value: "10K" }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 150, unit: sec }
+      - type: cooldown
+        duration: { value: 2, unit: mi }
+  - title: Recovery {4:6}
+    distance: 4.0
+    steps:
+      - type: active
+        duration: { value: 4, unit: mi }
+  - title: Endurance {11:18}
+    distance: 11.0
+    steps:
+      - type: active
+        duration: { value: 11, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: General aerobic + speed {7:11}
+    distance: 7.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 150, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 250, unit: m }
+      - type: rest
+        name: "Recovery between sets"
+        duration: { value: 4, unit: min }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 150, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 250, unit: m }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: General aerobic {7:11}
+    distance: 7.0
+    steps:
+      - type: active
+        duration: { value: 7, unit: mi }
+  - title: Rest
+  - title: Recovery {3:5}
+    distance: 3.0
+    steps:
+      - type: active
+        duration: { value: 3, unit: mi }
+  - title: 5K tune-up race {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: active
+        name: "5K Race"
+        duration: { value: 5, unit: km }
+        target: { type: pace, value: "5K" }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: Endurance {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: General aerobic + speed {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 3, unit: mi }
+      - type: repeat
+        count: 8
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 1, unit: min }
+      - type: cooldown
+        duration: { value: 4, unit: mi }
+  - title: Endurance {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }
+  - title: Rest or cross-training
+  - title: VO₂max {9:14}
+    distance: 9.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 3
+        steps:
+          - type: active
+            name: "VO2max interval"
+            duration: { value: 1000, unit: m }
+            target: { type: heart_rate, zone: 5 }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 4, unit: min }
+      - type: repeat
+        count: 3
+        steps:
+          - type: active
+            name: "VO2max interval"
+            duration: { value: 800, unit: m }
+            target: { type: heart_rate, zone: 5 }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 3, unit: min }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: Recovery {5:8}
+    distance: 5.0
+    steps:
+      - type: active
+        duration: { value: 5, unit: mi }
+  - title: Endurance {11:18}
+    distance: 11.0
+    steps:
+      - type: active
+        duration: { value: 11, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: General aerobic + speed {7:11}
+    distance: 7.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 150, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 250, unit: m }
+      - type: rest
+        name: "Recovery between sets"
+        duration: { value: 4, unit: min }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 150, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 250, unit: m }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: General aerobic {7:11}
+    distance: 7.0
+    steps:
+      - type: active
+        duration: { value: 7, unit: mi }
+  - title: Rest
+  - title: Recovery {3:5}
+    distance: 3.0
+    steps:
+      - type: active
+        duration: { value: 3, unit: mi }
+  - title: 5K tune-up race {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: active
+        name: "5K Race"
+        duration: { value: 5, unit: km }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: Endurance {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: General aerobic + speed {6:10}
+    distance: 6.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 8
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 1, unit: min }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: Recovery {4:6}
+    distance: 4.0
+    steps:
+      - type: active
+        duration: { value: 4, unit: mi }
+  - title: VO₂max {8:13}
+    distance: 8.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "VO2max interval"
+            duration: { value: 800, unit: m }
+            target: { type: heart_rate, zone: 5 }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 3, unit: min }
+      - type: repeat
+        count: 2
+        steps:
+          - type: active
+            name: "VO2max interval"
+            duration: { value: 600, unit: m }
+            target: { type: heart_rate, zone: 5 }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 150, unit: sec }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: Rest or cross-training
+  - title: Recovery {4:6}
+    distance: 4.0
+    steps:
+      - type: active
+        duration: { value: 4, unit: mi }
+  - title: General aerobic {8:13}
+    distance: 8.0
+    steps:
+      - type: active
+        duration: { value: 8, unit: mi }
+- workouts:
+  - title: Race pace + speed {6:10}
+    distance: 6.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 1, unit: min }
+      - type: active
+        name: "Race pace interval"
+        duration: { value: 1200, unit: m }
+        target: { type: pace, value: "10K" }
+      - type: cooldown
+        duration: { value: 2, unit: mi }
+  - title: Recovery {3:5}
+    distance: 3.0
+    steps:
+      - type: active
+        duration: { value: 3, unit: mi }
+  - title: Recovery {4:6}
+    distance: 4.0
+    steps:
+      - type: active
+        duration: { value: 4, unit: mi }
+  - title: Rest
+  - title: Recovery {3:5}
+    distance: 3.0
+    steps:
+      - type: warmup
+        duration: { value: 1, unit: mi }
+      - type: repeat
+        count: 4
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 1, unit: min }
+      - type: cooldown
+        duration: { value: 1, unit: mi }
+  - title: 8K or 10K goal race {11:18}
+    distance: 11.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: active
+        name: "Goal Race"
+        duration: { value: 10, unit: km }
+      - type: cooldown
+        duration: { value: 3, unit: mi }
+  - title: Recovery {4:6}
+    distance: 4.0
+    steps:
+      - type: active
+        duration: { value: 4, unit: mi }
+- workouts:
+  - title: Rest or cross-training
+  - title: Recovery {5:8}
+    distance: 5.0
+    steps:
+      - type: active
+        duration: { value: 5, unit: mi }
+  - title: Recovery {5:8}
+    distance: 5.0
+    steps:
+      - type: active
+        duration: { value: 5, unit: mi }
+  - title: Recovery {6:10}
+    distance: 6.0
+    steps:
+      - type: active
+        duration: { value: 6, unit: mi }
+  - title: Rest or cross-training
+  - title: General aerobic + speed {7:11}
+    distance: 7.0
+    steps:
+      - type: warmup
+        duration: { value: 2, unit: mi }
+      - type: repeat
+        count: 8
+        steps:
+          - type: active
+            name: "Strides"
+            duration: { value: 100, unit: m }
+          - type: rest
+            name: "Recovery"
+            duration: { value: 1, unit: min }
+      - type: cooldown
+        duration: { value: 4, unit: mi }
+  - title: General aerobic {9:14}
+    distance: 9.0
+    steps:
+      - type: active
+        duration: { value: 9, unit: mi }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { repo } from "./ch/planrepo";
 import { endOfWeek, addWeeks, isAfter } from "date-fns";
 import { RacePlan } from "./ch/dategrid";
-import { build, swap, swapDow } from "./ch/planbuilder";
+import { build, swap, swapDow, offset } from "./ch/planbuilder";
 import { CalendarGrid } from "./components/CalendarGrid";
 import { toIcal } from "./ch/icalservice";
 import { toCsv } from "./ch/csvService";
@@ -23,14 +23,18 @@ import WeekStartsOnPicker from "./components/WeekStartsOnPicker";
 import { useMountEffect } from "./ch/hooks";
 import { Units, PlanSummary, dayOfWeek } from "types/app";
 import { getLocaleUnits } from "./ch/localize";
+import { toFit } from "./ch/fitservice";
+import { render } from "./ch/rendering";
 
 const App = () => {
-  const [{ u, p, d, s }, setq] = useQueryParams({
+  const [{ u, p, d, s, w }, setq] = useQueryParams({
     u: StringParam,
     p: StringParam,
     d: DateParam,
     s: NumberParam,
+    w: NumberParam, // workout index for deep-linking
   });
+
   const [selectedUnits, setSelectedUnits] = useState<Units>(
     u === "mi" || u === "km" ? u : getLocaleUnits(),
   );
@@ -57,6 +61,64 @@ const App = () => {
       forceUpdate();
     });
   }, []);
+
+  React.useEffect(() => {
+    // If URL parameters change (e.g. via a deep link), update the internal state
+    // and trigger a reload of the plan.
+    const planFromUrl = repo.find(p || "");
+    const unitsFromUrl = u === "mi" || u === "km" ? u : getLocaleUnits();
+    const weekStartsOnFromUrl = s === 0 || s === 1 || s === 6 ? s : WeekStartsOnValues.Monday;
+    const dateFromUrl = d && isAfter(d, new Date()) ? d : planEndDate;
+
+    if (
+      p !== selectedPlan[0] ||
+      unitsFromUrl !== selectedUnits ||
+      weekStartsOnFromUrl !== weekStartsOn ||
+      (d && d.getTime() !== planEndDate.getTime())
+    ) {
+      setSelectedPlan(planFromUrl);
+      setSelectedUnits(unitsFromUrl);
+      setWeekStartsOn(weekStartsOnFromUrl);
+      if (d) setPlanEndDate(d);
+      
+      initialLoad(planFromUrl, dateFromUrl, unitsFromUrl, weekStartsOnFromUrl);
+    }
+  }, [p, d, u, s]);
+
+  React.useEffect(() => {
+    if (racePlan && w !== undefined && w !== null) {
+      const workout = getWorkoutByIndex(racePlan, w);
+      if (workout?.steps) {
+        const [renderedTitle] = render(
+          workout,
+          workout.sourceUnits,
+          selectedUnits,
+        );
+        const uint8Array = toFit(workout, renderedTitle);
+        if (uint8Array) {
+          const fileName = `${renderedTitle.replace(/[^a-z0-9]/gi, "_").toLowerCase()}`;
+          download(uint8Array, fileName, "fit");
+          // Clear the 'w' param so it doesn't re-download on refresh
+          setq({ w: undefined }, "replaceIn");
+        }
+      }
+    }
+  }, [racePlan, w]);
+
+  function getWorkoutByIndex(plan: RacePlan, index: number) {
+    let count = 0;
+    for (const week of plan.dateGrid.weeks) {
+      for (const day of week.days) {
+        if (day.event) {
+          if (count === index) {
+            return day.event;
+          }
+          count++;
+        }
+      }
+    }
+    return undefined;
+  }
 
   const getParams = (
     units: Units,
@@ -113,6 +175,17 @@ const App = () => {
     setq(getParams(selectedUnits, selectedPlan, planEndDate, v));
   };
 
+  const onOffsetPlan = (days: number) => {
+    if (racePlan) {
+      const newRacePlan = offset(racePlan, days);
+      setRacePlan(newRacePlan);
+      const newEndDate = newRacePlan.planDates.planEndDate;
+      setPlanEndDate(newEndDate);
+      setUndoHistory([...undoHistory, newRacePlan]);
+      setq(getParams(selectedUnits, selectedPlan, newEndDate, weekStartsOn));
+    }
+  };
+
   function swapDates(d1: Date, d2: Date): void {
     if (racePlan) {
       const newRacePlan = swap(racePlan, d1, d2);
@@ -131,7 +204,9 @@ const App = () => {
 
   function downloadIcalHandler() {
     if (racePlan) {
-      const eventsStr = toIcal(racePlan, selectedUnits);
+      // Get the base URL including the subpath but excluding the hash/query
+      const baseUrl = window.location.href.split('#')[0];
+      const eventsStr = toIcal(racePlan, selectedUnits, baseUrl);
       if (eventsStr) {
         download(eventsStr, "plan", "ics");
       }
@@ -163,6 +238,7 @@ const App = () => {
         dateChangeHandler={onSelectedEndDateChange}
         selectedPlanChangeHandler={onSelectedPlanChange}
         weekStartsOn={weekStartsOn}
+        onOffsetPlan={onOffsetPlan}
       />
       <div className="second-toolbar">
         <div className="units">
@@ -173,8 +249,12 @@ const App = () => {
         </div>
       </div>
       <div className="second-toolbar">
-        <button className="app-button" onClick={downloadIcalHandler}>Download iCal</button>
-        <button className="app-button" onClick={downloadCsvHandler}>Download CSV</button>
+        <button className="app-button" onClick={downloadIcalHandler}>
+          Download iCal
+        </button>
+        <button className="app-button" onClick={downloadCsvHandler}>
+          Download CSV
+        </button>
         <UndoButton
           disabled={undoHistory.length <= 1}
           undoHandler={undoHandler}

@@ -10,6 +10,7 @@ interface Props {
   dateChangeHandler: (d: Date) => void;
   selectedPlanChangeHandler: (p: PlanSummary) => void;
   weekStartsOn: WeekStartsOn;
+  onOffsetPlan: (days: number) => void;
 }
 
 const PlanAndDate = ({
@@ -19,6 +20,7 @@ const PlanAndDate = ({
   selectedDate,
   dateChangeHandler,
   weekStartsOn,
+  onOffsetPlan,
 }: Props) => {
   return (
     <div className="plan-and-date">
@@ -28,11 +30,19 @@ const PlanAndDate = ({
         planChangeHandler={selectedPlanChangeHandler}
       />
       <h3>ending on</h3>
-      <DateControl
-        selectedDate={selectedDate}
-        onDateChanged={dateChangeHandler}
-        weekStartsOn={weekStartsOn}
-      />
+      <div className="offset-controls">
+        <button className="app-button" onClick={() => onOffsetPlan(-1)}>
+          {"<"}
+        </button>
+        <DateControl
+          selectedDate={selectedDate}
+          onDateChanged={dateChangeHandler}
+          weekStartsOn={weekStartsOn}
+        />
+        <button className="app-button" onClick={() => onOffsetPlan(1)}>
+          {">"}
+        </button>
+      </div>
     </div>
   );
 };

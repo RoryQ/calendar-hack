@@ -4,13 +4,43 @@ import { Dateline } from "./Dateline";
 import { useDrag, DragSourceMonitor } from "react-dnd";
 import { ItemTypes } from "../ch/ItemTypes";
 import { DragHandle } from "./DragHandle";
-import { DayDetails, Units } from "types/app";
+import { DayDetails, Units, WorkoutStep } from "types/app";
+import { toFit } from "../ch/fitservice";
+import { download } from "../ch/downloadservice";
 
 interface Props {
   dayDetails: DayDetails;
   date: Date;
   units: Units;
   swap: (d1: Date, d2: Date) => void;
+}
+
+function renderSteps(steps: WorkoutStep[]): React.ReactElement {
+  return (
+    <ul className="workout-steps">
+      {steps.map((step, i) => {
+        if (step.type === "repeat") {
+          return (
+            <li key={i} className="workout-step-repeat">
+              <strong>Repeat {step.count}x:</strong>
+              {step.steps && renderSteps(step.steps)}
+            </li>
+          );
+        }
+        const durationStr = step.duration 
+          ? `${step.duration.value} ${step.duration.unit}`
+          : "";
+        const targetStr = step.target
+          ? ` (${step.target.type === 'heart_rate' ? 'HR Zone ' + step.target.zone : step.target.value || step.target.type})`
+          : "";
+        return (
+          <li key={i} className="workout-step">
+            <span className="step-type">{step.type}:</span> {step.name || ""} {durationStr} {targetStr}
+          </li>
+        );
+      })}
+    </ul>
+  );
 }
 
 function renderDesc(
@@ -32,6 +62,7 @@ function renderDesc(
           <span className="workout-description">{desc}</span>
         </p>
       }
+      {dayDetails.steps && renderSteps(dayDetails.steps)}
     </>
   );
 }
@@ -51,6 +82,15 @@ export const WorkoutCard = ({ dayDetails, date, units }: Props) => {
     },
   });
 
+  function downloadFitHandler() {
+    const [renderedTitle] = render(dayDetails, dayDetails.sourceUnits, units);
+    const uint8Array = toFit(dayDetails, renderedTitle);
+    if (uint8Array) {
+      const fileName = `${renderedTitle.replace(/[^a-z0-9]/gi, "_").toLowerCase()}`;
+      download(uint8Array, fileName, "fit");
+    }
+  }
+
   return (
     <div ref={preview} className={`workout-card ${isDragging ? "dragging" : ""}`}>
       <Dateline $date={date} />
@@ -59,6 +99,15 @@ export const WorkoutCard = ({ dayDetails, date, units }: Props) => {
           <DragHandle viewBox="0 0 32 36" />
         </div>
         {renderDesc(dayDetails, dayDetails.sourceUnits, units)}
+        {dayDetails.steps && (
+          <button
+            className="app-button fit-download-btn"
+            onClick={downloadFitHandler}
+            title="Download Garmin FIT Workout"
+          >
+            FIT
+          </button>
+        )}
       </div>
     </div>
   );

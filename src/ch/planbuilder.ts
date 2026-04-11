@@ -1,4 +1,4 @@
-import { eachDayOfInterval } from "date-fns";
+import { eachDayOfInterval, addDays } from "date-fns";
 import { calcPlanDates, WeekStartsOn } from "./datecalc";
 import { DateGrid, RacePlan } from "./dategrid";
 import {
@@ -7,6 +7,7 @@ import {
   PlannedWorkout,
   TrainingPlan,
   Units,
+  PlanDates,
 } from "types/app";
 
 function renderDayDetails(
@@ -20,6 +21,7 @@ function renderDayDetails(
       tags: plannedWorkout.tags,
       dist: plannedWorkout.distance,
       sourceUnits: sourceUnits,
+      steps: plannedWorkout.steps,
     };
   } else {
     return undefined;
@@ -63,6 +65,7 @@ export function build(
   });
   const dateGrid = new DateGrid(map, weekStartsOn);
   return {
+    planId: trainingPlan.id,
     raceType: trainingPlan.type,
     planDates: planDates,
     dateGrid: dateGrid,
@@ -73,10 +76,10 @@ export function build(
 }
 
 export function swap(racePlan: RacePlan, d1: Date, d2: Date): RacePlan {
-  const newPlan = {
+  const newPlan: RacePlan = {
+    planId: racePlan.planId,
     planDates: racePlan.planDates,
     raceType: racePlan.raceType,
-    title: racePlan.raceType,
     dateGrid: racePlan.dateGrid.clone(),
     sourceUnits: racePlan.sourceUnits,
     description: racePlan.description,
@@ -91,15 +94,36 @@ export function swapDow(
   dow1: dayOfWeek,
   dow2: dayOfWeek,
 ): RacePlan {
-  const newPlan = {
+  const newPlan: RacePlan = {
+    planId: racePlan.planId,
     planDates: racePlan.planDates,
     raceType: racePlan.raceType,
-    title: racePlan.raceType,
     dateGrid: racePlan.dateGrid.clone(),
     sourceUnits: racePlan.sourceUnits,
     description: racePlan.description,
     sourceUrl: racePlan.sourceUrl,
   };
   newPlan.dateGrid.swapDow(dow1, dow2);
+  return newPlan;
+}
+
+export function offset(racePlan: RacePlan, days: number): RacePlan {
+  const newDates: PlanDates = {
+    start: addDays(racePlan.planDates.start, days),
+    planStartDate: addDays(racePlan.planDates.planStartDate, days),
+    planEndDate: addDays(racePlan.planDates.planEndDate, days),
+    end: addDays(racePlan.planDates.end, days),
+    weekCount: racePlan.planDates.weekCount,
+  };
+  const newPlan: RacePlan = {
+    planId: racePlan.planId,
+    planDates: newDates,
+    raceType: racePlan.raceType,
+    dateGrid: racePlan.dateGrid.clone(),
+    sourceUnits: racePlan.sourceUnits,
+    description: racePlan.description,
+    sourceUrl: racePlan.sourceUrl,
+  };
+  newPlan.dateGrid.offset(days);
   return newPlan;
 }

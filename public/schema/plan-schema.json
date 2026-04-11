@@ -105,11 +105,48 @@
                     },
                     "minItems": 1,
                     "uniqueItems": true
+                },
+                "steps": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/step"
+                    }
                 }
             },
             "required": [
                 "title"
             ]
+        },
+        "step": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "enum": ["warmup", "active", "rest", "cooldown", "repeat"]
+                },
+                "name": { "type": "string" },
+                "duration": {
+                    "type": "object",
+                    "properties": {
+                        "value": { "type": "number" },
+                        "unit": { "enum": ["mi", "km", "m", "min", "sec"] }
+                    },
+                    "required": ["value", "unit"]
+                },
+                "target": {
+                    "type": "object",
+                    "properties": {
+                        "type": { "enum": ["pace", "heart_rate", "power", "cadence", "open"] },
+                        "value": { "type": "string" },
+                        "zone": { "type": "integer" }
+                    }
+                },
+                "count": { "type": "integer" },
+                "steps": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/step" }
+                }
+            },
+            "required": ["type"]
         }
     }
 }

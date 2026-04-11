@@ -7,25 +7,25 @@ import App from "./App";
 import { DndProvider } from "react-dnd-multi-backend";
 import { HTML5toTouch } from "rdndmb-html5-to-touch";
 import { QueryParamProvider } from "use-query-params";
-import { WindowHistoryAdapter } from "use-query-params/adapters/window";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ReactRouter6Adapter } from "use-query-params/adapters/react-router-6";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./About";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <DndProvider options={HTML5toTouch}>
-      <QueryParamProvider adapter={WindowHistoryAdapter}>
+      <HashRouter>
+        <QueryParamProvider adapter={ReactRouter6Adapter}>
           <div className="app">
-            <BrowserRouter basename="/calendar-hack">
-              <Routes>
-                <Route path="/" element={<Index />} >
-                  <Route index path="/" element={<App />}/>
-                  <Route path="about" element={<About />}/>
-                </Route>
-              </Routes>
-            </BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Index />}>
+                <Route index path="/" element={<App />} />
+                <Route path="about" element={<About />} />
+              </Route>
+            </Routes>
           </div>
-      </QueryParamProvider>
+        </QueryParamProvider>
+      </HashRouter>
     </DndProvider>
   </StrictMode>,
 );

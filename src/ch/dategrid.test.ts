@@ -149,4 +149,23 @@ describe("Plan", function () {
       expect(p.getEvent(dparse(s))?.desc.startsWith("Tuesday")).toBe(true),
     );
   });
+
+  it("Should offset events correctly", function () {
+    const m = new Map();
+    const event1 = { desc: "event-1" };
+    m.set(dparse("04/13/2020"), event1); // Monday
+    let p = new DateGrid<Event>(m, WeekStartsOnValues.Monday);
+    expect(p.getEvent(dparse("04/13/2020"))).toEqual(event1);
+
+    p.offset(1); // Shift forward by 1 day
+    expect(p.min).toEqual(dparse("04/14/2020"));
+    expect(p.first).toEqual(dparse("04/13/2020")); // Week start should still be Monday 04/13
+    expect(p.getEvent(dparse("04/14/2020"))).toEqual(event1);
+    expect(p.getEvent(dparse("04/13/2020"))).toBeUndefined();
+
+    p.offset(-2); // Shift backward by 2 days (now at 04/12 Sunday)
+    expect(p.min).toEqual(dparse("04/12/2020"));
+    expect(p.first).toEqual(dparse("04/06/2020")); // Week start shifts to previous Monday
+    expect(p.getEvent(dparse("04/12/2020"))).toEqual(event1);
+  });
 });
