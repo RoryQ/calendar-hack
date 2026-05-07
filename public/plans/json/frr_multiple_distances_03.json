@@ -13,29 +13,29 @@
             },
             {
                "title": "General aerobic {10:16}",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Lactate threshold {10:16}",
                "description": "12 min LT interval (jog 4 min recovery)\n10 min LT interval (jog 4 min recovery)\n10 min LT interval",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Endurance {11:18}",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "Recovery {7:11}",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "General aerobic + speed {9:14}",
                "description": "6 x 12 sec uphill followed by 8 x 100m strides",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Endurance {13:21}",
-               "distance": 13.0
+               "distance": 13
             }
          ]
       },
@@ -46,30 +46,30 @@
             },
             {
                "title": "General aerobic {10:16}",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Lactate threshold {11:18}",
                "description": "15 min LT interval (jog 4 min recovery)\n12 min LT interval (jog 4 min recovery)\n9 min LT interval",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "Endurance {11:18}",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "2 Recovery runs {9:14}",
                "description": "5 mi (8K)\n4 mi (6K)",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Speed {8:13}",
                "description": "3 sets of 4 x 200m @ 800m to mile race pace (jog 200m recovery and 4 min between sets)",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Endurance {14:23}",
-               "distance": 14.0
+               "distance": 14
             }
          ]
       },
@@ -77,35 +77,35 @@
          "workouts": [
             {
                "title": "Recovery {4:6}",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "General aerobic {10:16}",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "VO2max {10:16}",
                "description": "8 x 3 min uphill @ 3K-5K race effort (job downhill recovery)",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Endurance {11:18}",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "2 Recovery runs {8:12}",
                "description": "4 mi (6K)\n4 mi (6K)",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "General aerobic + speed {9:14}",
                "description": "6 x 12 sec uphill followed by 8 x 100m strides",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Endurance {14:23}",
                "description": "Increase effort steadily throughout the run, last 2 miles (3K) @ LT pace",
-               "distance": 14.0
+               "distance": 14
             }
          ]
       },
@@ -113,33 +113,33 @@
          "workouts": [
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "General aerobic {9:14}",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "General aerobic {7:11}",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Endurance {10:16}",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "2 Recovery runs {9:14}",
                "description": "5 mi (8K)\n4 mi (6K)",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Speed {8:13}",
                "description": "3 sets of 4 x 200m @ 800m to mile race pace (jog 200m recovery and 4 min between sets)",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Endurance {12:19}",
-               "distance": 12.0
+               "distance": 12
             }
          ]
       },
@@ -147,34 +147,34 @@
          "workouts": [
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "VO2max {11:18}",
                "description": "3 x 1200m, 3 x 1000m\nAll intervals @ 3K-5K race pace (jog 50-90% interval time recovery)",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "General aerobic {8:13}",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Endurance {11:18}",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "2 Recovery runs {8:12}",
                "description": "4 mi (6K)\n4 mi (6K)",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Lactate threshold {11:18}",
                "description": "16 min LT interval (jog 4 min recovery)\n12 min LT interval (jog 4 min recovery)\n10 min LT interval",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "Endurance {15:24}",
-               "distance": 15.0
+               "distance": 15
             }
          ]
       },
@@ -182,35 +182,35 @@
          "workouts": [
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "General aerobic {10:16}",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "VO2max {11:18}",
                "description": "3 x 1200m, 3 x 1000m\nAll intervals @ 3K-5K race pace (jog 50-90% interval time recovery)",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "Endurance {12:19}",
-               "distance": 12.0
+               "distance": 12
             },
             {
                "title": "2 Recovery runs {9:14}",
                "description": "5 mi (6K)\n4 mi (6K)",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "General aerobic + speed {10:16}",
                "description": "2 sets of 6 x 100 m strides (job 3 min between sets)",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Progression long run {15:24}",
                "description": "Increase effort steadily throughout run, last 3 miles (5K) @ LT pace",
-               "distance": 15.0
+               "distance": 15
             }
          ]
       },
@@ -219,34 +219,34 @@
             {
                "title": "2 Recovery runs {9:14}",
                "description": "5 mi (6K)\n4 mi (6K)",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "General aerobic {10:16}",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Speed {8:13}",
                "description": "2 sets of 5 x 200m @ 800m to mile race pace (jog 200m recovery and 4 min between sets)",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Endurance {12:19}",
-               "distance": 12.0
+               "distance": 12
             },
             {
                "title": "2 Recovery runs {9:14}",
                "description": "5 mi (6K)\n4 mi (6K)",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Lactate threshold {11:18}",
                "description": "36 min tempo run",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "Endurance {16:26}",
-               "distance": 16.0
+               "distance": 16
             }
          ]
       },
@@ -255,32 +255,32 @@
             {
                "title": "2 Recovery runs {10:16}",
                "description": "6 mi (10K)\n4 mi (6K)",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "General aerobic + speed {11:18}",
                "description": "2 sets of 5 x 150 m strides (jog 250 m recovery and 4 min between sets)",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "General aerobic {9:14}",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "General aerobic {7:11}",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "5K-10K tune-up race {10:16}",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Endurance {12:19}",
-               "distance": 12.0
+               "distance": 12
             }
          ]
       },
@@ -288,33 +288,33 @@
          "workouts": [
             {
                "title": "Recovery {6:10}",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "General aerobic {8:13}",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Recovery {7:11}",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "VO2max {10:16}",
                "description": "2 x 1200m\n2 x 800m\n2 x 600m\nAll intervals @ 3K-5K race pace (job 50-90% interval time recovery)",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "General aerobic + speed {8:13}",
                "description": "8 x 100m strides",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "General aerobic {10:16}",
-               "distance": 10.0
+               "distance": 10
             }
          ]
       },
@@ -323,15 +323,15 @@
             {
                "title": "Race pace + speed {8:13}",
                "description": "4 x 100m strides\n15% of race distance @ race pace",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "General aerobic {7:11}",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Recovery {6:10}",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Rest"
@@ -339,7 +339,7 @@
             {
                "title": "Recovery {4:6}",
                "description": "4 x 100 m strides",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Key race",
@@ -347,7 +347,7 @@
             },
             {
                "title": "Recovery {7:11}",
-               "distance": 7.0
+               "distance": 7
             }
          ]
       }

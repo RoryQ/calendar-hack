@@ -9,52 +9,52 @@
       {
          "workouts": [
             {
-               "title": "10 \u00d7 3 min at 90\u201392% 5k with 45 sec jog",
+               "title": "10 × 3 min at 90–92% 5k with 45 sec jog",
                "distance": [
-                  10.0,
-                  10.0
+                  10,
+                  10
                ]
             },
             {
                "title": "AM: {4-5:6-8} easy* / PM: {8-10:12-16} easy",
                "distance": [
-                  10.0,
-                  15.0
+                  10,
+                  15
                ]
             },
             {
                "title": "{8:14} at 85% 5k",
                "distance": [
-                  12.0,
-                  12.0
+                  12,
+                  12
                ]
             },
             {
                "title": "AM: {4-5:6-8} very easy* / PM: {8-10:12-16} easy",
                "distance": [
-                  10.0,
-                  15.0
+                  10,
+                  15
                ]
             },
             {
                "title": "AM: {5-6:8-10} easy* / PM: {5-7:8-12} moderate",
                "distance": [
-                  7.0,
-                  12.0
+                  7,
+                  12
                ]
             },
             {
                "title": "AM: {5-6:8-10} easy / PM: {5-6:8-10} at 90% 5k",
                "distance": [
-                  15.0,
-                  15.0
+                  15,
+                  15
                ]
             },
             {
                "title": "{8-12:14-20} easy",
                "distance": [
-                  12.0,
-                  12.0
+                  12,
+                  12
                ]
             }
          ]
@@ -62,52 +62,52 @@
       {
          "workouts": [
             {
-               "title": "AM: {4-5:6-8} easy / PM: 10\u201312 \u00d7 600m at 98\u2013100% 5k with 1\u20132 min jog",
+               "title": "AM: {4-5:6-8} easy / PM: 10–12 × 600m at 98–100% 5k with 1–2 min jog",
                "distance": [
-                  13.0,
-                  14.0
+                  13,
+                  14
                ]
             },
             {
                "title": "AM: {5-6:8-10} very easy* / PM: {8-11:13-18} easy",
                "distance": [
-                  10.0,
-                  16.0
+                  10,
+                  16
                ]
             },
             {
-               "title": "AM: 3-2-2-1 km at 86-88-90-92% 5k with 2 min walk / PM: 4\u20135 \u00d7 1.5 km at 90\u201392% 5k with 1 min walk",
+               "title": "AM: 3-2-2-1 km at 86-88-90-92% 5k with 2 min walk / PM: 4–5 × 1.5 km at 90–92% 5k with 1 min walk",
                "distance": [
-                  14.0,
-                  14.0
+                  14,
+                  14
                ]
             },
             {
                "title": "{8-10:12-16} very easy",
                "distance": [
-                  9.0,
-                  10.0
+                  9,
+                  10
                ]
             },
             {
-               "title": "AM: {5-6:8-10} easy / PM: {6-8:10-12} moderate with 5 \u00d7 25 sec strides",
+               "title": "AM: {5-6:8-10} easy / PM: {6-8:10-12} moderate with 5 × 25 sec strides",
                "distance": [
-                  12.0,
-                  14.0
+                  12,
+                  14
                ]
             },
             {
                "title": "{13-14:21-23} at 80% 5k through rolling hills",
                "distance": [
-                  16.0,
-                  17.0
+                  16,
+                  17
                ]
             },
             {
                "title": "AM: {5-7:8-12} very easy / PM: {5-7:8-12} very easy*",
                "distance": [
-                  8.0,
-                  12.0
+                  8,
+                  12
                ]
             }
          ]
@@ -117,50 +117,50 @@
             {
                "title": "AM: {4-6:6-10} easy / PM: {7-10:12-16} easy to moderate with 40 min of (1 min at ~95% 5k effort, 3 min easy) in the middle",
                "distance": [
-                  16.0,
-                  16.0
+                  16,
+                  16
                ]
             },
             {
-               "title": "AM: {4-6:6-10} very easy* / PM: 4 \u00d7 (1 km at 95% 5k, 2 min jog, 1 km at 100% 5k, 4 min jog)",
+               "title": "AM: {4-6:6-10} very easy* / PM: 4 × (1 km at 95% 5k, 2 min jog, 1 km at 100% 5k, 4 min jog)",
                "distance": [
-                  10.0,
-                  14.0
+                  10,
+                  14
                ]
             },
             {
                "title": "{8-12:14-20} easy",
                "distance": [
-                  10.0,
-                  12.0
+                  10,
+                  12
                ]
             },
             {
-               "title": "AM: {4-6:6-10} very easy* / PM: 6\u20137 \u00d7 2 km at 86\u201388% 5k with 2 min walk",
+               "title": "AM: {4-6:6-10} very easy* / PM: 6–7 × 2 km at 86–88% 5k with 2 min walk",
                "distance": [
-                  11.0,
-                  15.0
+                  11,
+                  15
                ]
             },
             {
                "title": "AM: {4-5:6-8} easy* / PM: {8-10:12-16} easy",
                "distance": [
-                  10.0,
-                  14.0
+                  10,
+                  14
                ]
             },
             {
                "title": "{18-20:30-32} easy through rolling hills",
                "distance": [
-                  18.0,
-                  20.0
+                  18,
+                  20
                ]
             },
             {
                "title": "AM: {4-7:7-12} very easy / PM: {4-7:7-12} easy*",
                "distance": [
-                  12.0,
-                  12.0
+                  12,
+                  12
                ]
             }
          ]
@@ -168,52 +168,52 @@
       {
          "workouts": [
             {
-               "title": "AM: 4 \u00d7 2 km at 86\u201388% 5k with 2 min walk / PM: 7 \u00d7 1 km at 90\u201392% 5k with 1 min walk",
+               "title": "AM: 4 × 2 km at 86–88% 5k with 2 min walk / PM: 7 × 1 km at 90–92% 5k with 1 min walk",
                "distance": [
-                  15.0,
-                  15.0
+                  15,
+                  15
                ]
             },
             {
                "title": "AM: {4-6:6-10} very easy / PM: {8-10:12-16} easy",
                "distance": [
-                  13.0,
-                  15.0
+                  13,
+                  15
                ]
             },
             {
-               "title": "AM: {4-5:6-8} very easy* / PM: 6 \u00d7 {1:1.6} at 95% 5k with 3 min jog",
+               "title": "AM: {4-5:6-8} very easy* / PM: 6 × {1:1.6} at 95% 5k with 3 min jog",
                "distance": [
-                  10.0,
-                  13.0
+                  10,
+                  13
                ]
             },
             {
                "title": "AM: {5-6:8-10} very easy / PM: {8-11:13-18} very easy",
                "distance": [
-                  14.0,
-                  16.0
+                  14,
+                  16
                ]
             },
             {
                "title": "AM: {5-6:8-10} easy / PM: {10-12:16-20} easy progressing to moderate with 30 min of (30 sec at ~5k effort, 2.5 min moderate) in the middle",
                "distance": [
-                  16.0,
-                  18.0
+                  16,
+                  18
                ]
             },
             {
                "title": "{15-16:25-27} at 80% 5k through rolling hills",
                "distance": [
-                  18.0,
-                  19.0
+                  18,
+                  19
                ]
             },
             {
                "title": "AM: {5-6:8-10} very easy / PM: {5-7:8-12} very easy",
                "distance": [
-                  7.0,
-                  14.0
+                  7,
+                  14
                ]
             }
          ]
@@ -221,52 +221,52 @@
       {
          "workouts": [
             {
-               "title": "AM: {4-6:6-10} easy / PM: {8-12:14-20} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {4-6:6-10} easy / PM: {8-12:14-20} easy with 5 × 25 sec strides",
                "distance": [
-                  14.0,
-                  17.0
+                  14,
+                  17
                ]
             },
             {
                "title": "AM: {4-6:6-10} very easy* / PM: {11-12:18-21} at 100% MP",
                "distance": [
-                  15.0,
-                  18.0
+                  15,
+                  18
                ]
             },
             {
                "title": "AM: {5-7:8-12} very easy / PM: {8-10:12-16} easy",
                "distance": [
-                  14.0,
-                  16.0
+                  14,
+                  16
                ]
             },
             {
                "title": "AM: {6-8:10-12} easy progressing to moderate / PM: {6-8:10-12} moderate progressing to strong",
                "distance": [
-                  13.0,
-                  15.0
+                  13,
+                  15
                ]
             },
             {
-               "title": "AM: {5-7:8-12} easy / PM: {8-12:14-20} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {5-7:8-12} easy / PM: {8-12:14-20} easy with 5 × 25 sec strides",
                "distance": [
-                  14.0,
-                  18.0
+                  14,
+                  18
                ]
             },
             {
-               "title": "{20-21:32-34} at 90\u201392% MP",
+               "title": "{20-21:32-34} at 90–92% MP",
                "distance": [
-                  22.0,
-                  23.0
+                  22,
+                  23
                ]
             },
             {
                "title": "AM: {5-8:8-12} very easy / PM: {5-8:8-12} very easy*",
                "distance": [
-                  8.0,
-                  8.0
+                  8,
+                  8
                ]
             }
          ]
@@ -276,50 +276,50 @@
             {
                "title": "AM: {5-8:8-12} easy / PM: {8-12:14-20} easy",
                "distance": [
-                  14.0,
-                  20.0
+                  14,
+                  20
                ]
             },
             {
-               "title": "AM: {4-5:6-8} very easy* / PM: {8-10:12-16} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {4-5:6-8} very easy* / PM: {8-10:12-16} easy with 5 × 25 sec strides",
                "distance": [
-                  10.0,
-                  14.0
+                  10,
+                  14
                ]
             },
             {
-               "title": "Special block AM: {4:7} prog. + 4-1, 3-1, 2-1, 1-1 km at 103/105% MP with 2 min walk / PM: {4:7} prog. + 8 \u00d7 500m at 108\u2013110% MP + 3\u20134 km at 110\u2013112% MP",
+               "title": "Special block AM: {4:7} prog. + 4-1, 3-1, 2-1, 1-1 km at 103/105% MP with 2 min walk / PM: {4:7} prog. + 8 × 500m at 108–110% MP + 3–4 km at 110–112% MP",
                "distance": [
-                  22.0,
-                  22.0
+                  22,
+                  22
                ]
             },
             {
                "title": "AM: {4-6:6-10} very easy* / PM: {6-8:10-12} very easy",
                "distance": [
-                  8.0,
-                  12.0
+                  8,
+                  12
                ]
             },
             {
                "title": "AM: {4-6:6-10} very easy / PM: {8-10:12-16} easy",
                "distance": [
-                  13.0,
-                  16.0
+                  13,
+                  16
                ]
             },
             {
                "title": "AM: {4-6:6-10} easy / PM: {8-10:12-16} easy with 40 min of (1 min at ~95% 5k effort, 3 min easy) in the middle",
                "distance": [
-                  14.0,
-                  16.0
+                  14,
+                  16
                ]
             },
             {
-               "title": "5 \u00d7 4 km at 102\u2013103% MP with 3 min walk",
+               "title": "5 × 4 km at 102–103% MP with 3 min walk",
                "distance": [
-                  19.0,
-                  20.0
+                  19,
+                  20
                ]
             }
          ]
@@ -329,50 +329,50 @@
             {
                "title": "AM: {5-6:8-10} very easy* / PM: {8-10:12-16} very easy to easy",
                "distance": [
-                  10.0,
-                  15.0
+                  10,
+                  15
                ]
             },
             {
-               "title": "AM: {5-8:8-12} easy / PM: {8-10:12-16} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {5-8:8-12} easy / PM: {8-10:12-16} easy with 5 × 25 sec strides",
                "distance": [
-                  14.0,
-                  17.0
+                  14,
+                  17
                ]
             },
             {
-               "title": "AM: {4-6:6-10} very easy* / PM: 10 \u00d7 (1 km at 105% MP, 1 km at 90\u201392% MP)",
+               "title": "AM: {4-6:6-10} very easy* / PM: 10 × (1 km at 105% MP, 1 km at 90–92% MP)",
                "distance": [
-                  16.0,
-                  20.0
+                  16,
+                  20
                ]
             },
             {
                "title": "AM: {5-6:8-10} very easy* / PM: {8-10:12-16} easy",
                "distance": [
-                  12.0,
-                  15.0
+                  12,
+                  15
                ]
             },
             {
                "title": "AM: {5-8:8-12} easy / PM: {8-12:14-20} easy progressing to moderate with 40 min of (1 min at ~95% 5k, 3 min moderate) in the middle",
                "distance": [
-                  14.0,
-                  19.0
+                  14,
+                  19
                ]
             },
             {
                "title": "{7:12} at 90% MP + {6:10} at 92% MP + {5:8} at 94% MP + {4:6} at 96% MP",
                "distance": [
-                  24.0,
-                  24.0
+                  24,
+                  24
                ]
             },
             {
                "title": "AM: {5-8:8-12} very easy / PM: {5-8:8-12} very easy*",
                "distance": [
-                  10.0,
-                  10.0
+                  10,
+                  10
                ]
             }
          ]
@@ -382,50 +382,50 @@
             {
                "title": "AM: {4-5:6-8} easy / PM: {8-10:12-16} easy",
                "distance": [
-                  13.0,
-                  15.0
+                  13,
+                  15
                ]
             },
             {
-               "title": "AM: {5-8:8-12} easy / PM: {10-12:16-20} easy progressing to moderate with 5 \u00d7 25 sec strides",
+               "title": "AM: {5-8:8-12} easy / PM: {10-12:16-20} easy progressing to moderate with 5 × 25 sec strides",
                "distance": [
-                  16.0,
-                  20.0
+                  16,
+                  20
                ]
             },
             {
-               "title": "AM: 8 \u00d7 1 km at 102\u2013106% MP with 1 min walk / PM: 12\u201315 \u00d7 500m at 108\u2013110% MP with 25 sec walk",
+               "title": "AM: 8 × 1 km at 102–106% MP with 1 min walk / PM: 12–15 × 500m at 108–110% MP with 25 sec walk",
                "distance": [
-                  16.0,
-                  18.0
+                  16,
+                  18
                ]
             },
             {
                "title": "AM: {4-7:7-12} very easy / PM: {8-10:12-16} easy",
                "distance": [
-                  13.0,
-                  16.0
+                  13,
+                  16
                ]
             },
             {
-               "title": "AM: {5-6:8-10} very easy* / PM: {8-10:12-16} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {5-6:8-10} very easy* / PM: {8-10:12-16} easy with 5 × 25 sec strides",
                "distance": [
-                  10.0,
-                  16.0
+                  10,
+                  16
                ]
             },
             {
                "title": "{16-18:27-30} at 98% MP",
                "distance": [
-                  20.0,
-                  22.0
+                  20,
+                  22
                ]
             },
             {
                "title": "AM: {4-6:6-10} very easy / PM: {4-6:6-10} very easy*",
                "distance": [
-                  12.0,
-                  13.0
+                  12,
+                  13
                ]
             }
          ]
@@ -435,50 +435,50 @@
             {
                "title": "AM: {5-7:8-12} very easy* / PM: {6-8:10-12} easy",
                "distance": [
-                  8.0,
-                  14.0
+                  8,
+                  14
                ]
             },
             {
-               "title": "AM: {5-6:8-10} very easy / PM: {8-10:12-16} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {5-6:8-10} very easy / PM: {8-10:12-16} easy with 5 × 25 sec strides",
                "distance": [
-                  14.0,
-                  15.0
+                  14,
+                  15
                ]
             },
             {
-               "title": "AM: 3\u20134 \u00d7 2 km at 103% MP with 2 min walk / PM: 12\u201316 \u00d7 400m at 108\u2013110% MP with 25 sec walk",
+               "title": "AM: 3–4 × 2 km at 103% MP with 2 min walk / PM: 12–16 × 400m at 108–110% MP with 25 sec walk",
                "distance": [
-                  12.0,
-                  12.0
+                  12,
+                  12
                ]
             },
             {
                "title": "AM: {5-7:8-12} very easy / PM: {8-10:14-16} very easy to easy",
                "distance": [
-                  14.0,
-                  16.0
+                  14,
+                  16
                ]
             },
             {
-               "title": "AM: {4-6:6-10} very easy* / PM: {6-8:10-12} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {4-6:6-10} very easy* / PM: {6-8:10-12} easy with 5 × 25 sec strides",
                "distance": [
-                  8.0,
-                  13.0
+                  8,
+                  13
                ]
             },
             {
                "title": "{22-23:34-37} at 95% MP",
                "distance": [
-                  24.0,
-                  25.0
+                  24,
+                  25
                ]
             },
             {
                "title": "AM: {4-6:6-10} very easy / PM: {4-6:6-10} very easy*",
                "distance": [
-                  10.0,
-                  10.0
+                  10,
+                  10
                ]
             }
          ]
@@ -488,50 +488,50 @@
             {
                "title": "AM: {5-7:8-12} very easy* / PM: {7-9:12-15} very easy to easy",
                "distance": [
-                  9.0,
-                  15.0
+                  9,
+                  15
                ]
             },
             {
                "title": "AM: {5-7:8-12} easy / PM: {6-8:10-12} easy progressing to moderate",
                "distance": [
-                  12.0,
-                  14.0
+                  12,
+                  14
                ]
             },
             {
-               "title": "8\u201310 \u00d7 3 min at 105\u2013107% MP with 30 sec jog",
+               "title": "8–10 × 3 min at 105–107% MP with 30 sec jog",
                "distance": [
-                  10.0,
-                  10.0
+                  10,
+                  10
                ]
             },
             {
                "title": "AM: {5-7:8-12} very easy / PM: {8-10:12-16} easy",
                "distance": [
-                  14.0,
-                  16.0
+                  14,
+                  16
                ]
             },
             {
-               "title": "AM: {4-6:6-10} easy* / PM: {6-8:10-12} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {4-6:6-10} easy* / PM: {6-8:10-12} easy with 5 × 25 sec strides",
                "distance": [
-                  8.0,
-                  13.0
+                  8,
+                  13
                ]
             },
             {
-               "title": "5 \u00d7 (5 km at 100% MP, 1 km at 90% MP)",
+               "title": "5 × (5 km at 100% MP, 1 km at 90% MP)",
                "distance": [
-                  21.0,
-                  22.0
+                  21,
+                  22
                ]
             },
             {
                "title": "AM: {4-6:6-10} very easy / PM: {4-6:6-10} very easy*",
                "distance": [
-                  6.0,
-                  10.0
+                  6,
+                  10
                ]
             }
          ]
@@ -541,50 +541,50 @@
             {
                "title": "AM: {4-6:6-10} very easy* / PM: {7-9:12-15} easy",
                "distance": [
-                  9.0,
-                  14.0
+                  9,
+                  14
                ]
             },
             {
                "title": "AM: {4-6:6-10} easy / PM: {8-10:12-16} easy progressing to moderate",
                "distance": [
-                  13.0,
-                  15.0
+                  13,
+                  15
                ]
             },
             {
-               "title": "AM: {4-6:6-10} very easy* / PM: {7-9:12-15} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {4-6:6-10} very easy* / PM: {7-9:12-15} easy with 5 × 25 sec strides",
                "distance": [
-                  9.0,
-                  14.0
+                  9,
+                  14
                ]
             },
             {
-               "title": "8\u201310 \u00d7 (1 km at 103\u2013105% MP, 1 km at 94\u201396% MP)",
+               "title": "8–10 × (1 km at 103–105% MP, 1 km at 94–96% MP)",
                "distance": [
-                  14.0,
-                  14.0
+                  14,
+                  14
                ]
             },
             {
                "title": "{6-8:10-12} very easy",
                "distance": [
-                  7.0,
-                  8.0
+                  7,
+                  8
                ]
             },
             {
-               "title": "AM: {4-5:6-8} easy* / PM: {7-9:12-15} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {4-5:6-8} easy* / PM: {7-9:12-15} easy with 5 × 25 sec strides",
                "distance": [
-                  9.0,
-                  13.0
+                  9,
+                  13
                ]
             },
             {
-               "title": "3 km at 107% MP (optional), 2 km at 108% MP, 2 km at 109% MP, 1 km at 110\u2013112% MP all with 4 min jog",
+               "title": "3 km at 107% MP (optional), 2 km at 108% MP, 2 km at 109% MP, 1 km at 110–112% MP all with 4 min jog",
                "distance": [
-                  4.0,
-                  12.0
+                  4,
+                  12
                ]
             }
          ]
@@ -594,50 +594,50 @@
             {
                "title": "{7-9:12-15} very easy",
                "distance": [
-                  7.0,
-                  9.0
+                  7,
+                  9
                ]
             },
             {
-               "title": "AM: {4-5:6-8} easy* / PM: {7-9:12-15} easy with 5 \u00d7 25 sec strides",
+               "title": "AM: {4-5:6-8} easy* / PM: {7-9:12-15} easy with 5 × 25 sec strides",
                "distance": [
-                  7.0,
-                  14.0
+                  7,
+                  14
                ]
             },
             {
-               "title": "6\u20138 \u00d7 3 min at 105\u2013107% MP with 45 sec jog",
+               "title": "6–8 × 3 min at 105–107% MP with 45 sec jog",
                "distance": [
-                  9.0,
-                  10.0
+                  9,
+                  10
                ]
             },
             {
                "title": "AM: {4-5:6-8} very easy* / PM: {6-8:10-12} easy",
                "distance": [
-                  6.0,
-                  13.0
+                  6,
+                  13
                ]
             },
             {
                "title": "{5-7:8-12} easy",
                "distance": [
-                  5.0,
-                  7.0
+                  5,
+                  7
                ]
             },
             {
-               "title": "{4-5:6-8} easy with 5 \u00d7 25 sec strides",
+               "title": "{4-5:6-8} easy with 5 × 25 sec strides",
                "distance": [
-                  4.0,
-                  5.0
+                  4,
+                  5
                ]
             },
             {
                "title": "Marathon race",
                "distance": [
-                  27.0,
-                  27.0
+                  27,
+                  27
                ]
             }
          ]

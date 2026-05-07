@@ -13,21 +13,21 @@
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "Bike: 30 min"
             },
             {
                "title": "{3:4.8} pace",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "Rest"
             },
             {
                "title": "{6:9.7} run",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Cross 60 min"
@@ -41,7 +41,7 @@
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Bike: 30 min"
@@ -54,7 +54,7 @@
             },
             {
                "title": "{7:11.3} run",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Cross 60 min"
@@ -68,21 +68,21 @@
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "Bike: 30 min"
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "Rest"
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Cross 60 min"
@@ -96,21 +96,21 @@
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Bike: 35 min"
             },
             {
                "title": "{3:4.8} pace",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "Rest"
             },
             {
                "title": "{9:14.5} run",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Cross 65 min"
@@ -124,7 +124,7 @@
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Bike: 35 min"
@@ -137,7 +137,7 @@
             },
             {
                "title": "{10:16.1} run",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Cross 65 min"
@@ -151,7 +151,7 @@
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Bike: 35 min",
@@ -159,14 +159,14 @@
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Rest"
             },
             {
                "title": "{8:12.9} run",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Cross 65 min",
@@ -181,7 +181,7 @@
             },
             {
                "title": "{6:9.7} run",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Bike: 40 min",
@@ -189,14 +189,14 @@
             },
             {
                "title": "{4:6.4} pace",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Rest"
             },
             {
                "title": "{12:19.3} run",
-               "distance": 12.0
+               "distance": 12
             },
             {
                "title": "Cross 70 min",
@@ -211,7 +211,7 @@
             },
             {
                "title": "{7:11.3} run",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Bike: 40 min",
@@ -226,7 +226,7 @@
             },
             {
                "title": "{13:20.9} run",
-               "distance": 13.0
+               "distance": 13
             },
             {
                "title": "Cross 70 min",
@@ -241,7 +241,7 @@
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Bike: 40 min",
@@ -249,7 +249,7 @@
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Rest"
@@ -270,7 +270,7 @@
             },
             {
                "title": "{7:11.3} run",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Bike: 45 min",
@@ -278,14 +278,14 @@
             },
             {
                "title": "{4:6.4} pace",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Rest"
             },
             {
                "title": "{15:24.1} run",
-               "distance": 15.0
+               "distance": 15
             },
             {
                "title": "Cross 75 min",
@@ -300,7 +300,7 @@
             },
             {
                "title": "{8:12.9} run",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Bike: 45 min",
@@ -315,7 +315,7 @@
             },
             {
                "title": "{16:25.8} run",
-               "distance": 16.0
+               "distance": 16
             },
             {
                "title": "Cross 75 min",
@@ -330,7 +330,7 @@
             },
             {
                "title": "{6:9.7} run",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Bike: 45 min",
@@ -359,7 +359,7 @@
             },
             {
                "title": "{8:12.9} run",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Bike: 50 min",
@@ -367,14 +367,14 @@
             },
             {
                "title": "{5:8.1} pace",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Rest"
             },
             {
                "title": "{17:27.4} run",
-               "distance": 17.0
+               "distance": 17
             },
             {
                "title": "Cross 80 min",
@@ -389,7 +389,7 @@
             },
             {
                "title": "{9:14.5} run",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Bike: 50 min",
@@ -404,7 +404,7 @@
             },
             {
                "title": "{18:29} run",
-               "distance": 18.0
+               "distance": 18
             },
             {
                "title": "Cross 80 min",
@@ -419,7 +419,7 @@
             },
             {
                "title": "{6:9.7} run",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Bike: 50 min",
@@ -427,14 +427,14 @@
             },
             {
                "title": "{6:9.7} run",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Rest"
             },
             {
                "title": "{13:20.9} run",
-               "distance": 13.0
+               "distance": 13
             },
             {
                "title": "Cross 80 min",
@@ -449,7 +449,7 @@
             },
             {
                "title": "{9:14.5} run",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Bike: 55 min",
@@ -457,7 +457,7 @@
             },
             {
                "title": "{6:9.7} pace",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Rest"
@@ -478,7 +478,7 @@
             },
             {
                "title": "{10:16.1} run",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Bike: 55 min",
@@ -493,7 +493,7 @@
             },
             {
                "title": "{20:32.1} run",
-               "distance": 20.0
+               "distance": 20
             },
             {
                "title": "Cross 85 min",
@@ -508,7 +508,7 @@
             },
             {
                "title": "{7:11.3} run",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Bike: 55 min",
@@ -516,14 +516,14 @@
             },
             {
                "title": "{7:11.3} run",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Rest"
             },
             {
                "title": "{14:22.5} run",
-               "distance": 14.0
+               "distance": 14
             },
             {
                "title": "Cross 85 min",
@@ -538,7 +538,7 @@
             },
             {
                "title": "{10:16.1} run",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Bike: 60 min",
@@ -546,14 +546,14 @@
             },
             {
                "title": "{7:11.3} pace",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Rest"
             },
             {
                "title": "{20:32.1} run",
-               "distance": 20.0
+               "distance": 20
             },
             {
                "title": "Cross 85 min",
@@ -568,7 +568,7 @@
             },
             {
                "title": "{8:12.9} run",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Bike: 60 min",
@@ -576,7 +576,7 @@
             },
             {
                "title": "{8:12.9} run",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Rest"
@@ -597,7 +597,7 @@
             },
             {
                "title": "{10:16.1} run",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "Bike: 60 min",
@@ -612,7 +612,7 @@
             },
             {
                "title": "{20:32.1} run",
-               "distance": 20.0
+               "distance": 20
             },
             {
                "title": "Cross 90 min",
@@ -627,7 +627,7 @@
             },
             {
                "title": "{6:9.7} run",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Bike: 50 min",
@@ -635,14 +635,14 @@
             },
             {
                "title": "{6:9.7} run",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Rest"
             },
             {
                "title": "{12:19.3} run",
-               "distance": 12.0
+               "distance": 12
             },
             {
                "title": "Cross 75 min",
@@ -657,7 +657,7 @@
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Bike: 40 min",
@@ -665,14 +665,14 @@
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Rest"
             },
             {
                "title": "{8:12.9} run",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Cross 60 min",
@@ -687,7 +687,7 @@
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Bike: 30 min",
@@ -701,7 +701,7 @@
             },
             {
                "title": "1-{2:3.2} run",
-               "distance": 2.0
+               "distance": 2
             },
             {
                "title": "Marathon ({26.2:42.2})"

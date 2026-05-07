@@ -13,7 +13,7 @@
             },
             {
                "title": "General aerobic + speed {6:10}",
-               "distance": 6.0,
+               "distance": 6,
                "steps": [
                   {
                      "type": "warmup",
@@ -87,7 +87,7 @@
             },
             {
                "title": "Endurance {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "active",
@@ -104,7 +104,7 @@
             },
             {
                "title": "Lactate threshold {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "warmup",
@@ -153,7 +153,7 @@
             },
             {
                "title": "Endurance {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",
@@ -174,7 +174,7 @@
             },
             {
                "title": "Speed {6:10}",
-               "distance": 6.0,
+               "distance": 6,
                "steps": [
                   {
                      "type": "warmup",
@@ -254,7 +254,7 @@
             },
             {
                "title": "Endurance {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "active",
@@ -270,7 +270,7 @@
             },
             {
                "title": "Lactate threshold {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -345,7 +345,7 @@
             },
             {
                "title": "Endurance {10:16}",
-               "distance": 10.0,
+               "distance": 10,
                "steps": [
                   {
                      "type": "active",
@@ -365,7 +365,7 @@
             },
             {
                "title": "General aerobic + speed {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "warmup",
@@ -437,7 +437,7 @@
             },
             {
                "title": "Endurance {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",
@@ -452,8 +452,8 @@
                "title": "Rest or cross-training"
             },
             {
-               "title": "VO\u2082max {8:13}",
-               "distance": 8.0,
+               "title": "VO₂max {8:13}",
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -502,7 +502,7 @@
             },
             {
                "title": "Endurance {10:16}",
-               "distance": 10.0,
+               "distance": 10,
                "steps": [
                   {
                      "type": "active",
@@ -522,7 +522,7 @@
             },
             {
                "title": "Speed {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "warmup",
@@ -602,7 +602,7 @@
             },
             {
                "title": "General aerobic {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "active",
@@ -618,7 +618,7 @@
             },
             {
                "title": "General aerobic {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "active",
@@ -634,7 +634,7 @@
             },
             {
                "title": "General aerobic {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",
@@ -654,7 +654,7 @@
             },
             {
                "title": "General aerobic + speed {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "warmup",
@@ -726,7 +726,7 @@
             },
             {
                "title": "Endurance {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",
@@ -741,8 +741,8 @@
                "title": "Rest or cross-training"
             },
             {
-               "title": "VO\u2082max {8:13}",
-               "distance": 8.0,
+               "title": "VO₂max {8:13}",
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -788,7 +788,7 @@
             },
             {
                "title": "Recovery {3:5}",
-               "distance": 3.0,
+               "distance": 3,
                "steps": [
                   {
                      "type": "active",
@@ -801,7 +801,7 @@
             },
             {
                "title": "Endurance {10:16}",
-               "distance": 10.0,
+               "distance": 10,
                "steps": [
                   {
                      "type": "active",
@@ -821,7 +821,7 @@
             },
             {
                "title": "Speed {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -901,7 +901,7 @@
             },
             {
                "title": "Endurance {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",
@@ -917,7 +917,7 @@
             },
             {
                "title": "Lactate threshold {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -989,7 +989,7 @@
             },
             {
                "title": "Recovery {3:5}",
-               "distance": 3.0,
+               "distance": 3,
                "steps": [
                   {
                      "type": "active",
@@ -1002,7 +1002,7 @@
             },
             {
                "title": "Endurance {11:18}",
-               "distance": 11.0,
+               "distance": 11,
                "steps": [
                   {
                      "type": "active",
@@ -1022,7 +1022,7 @@
             },
             {
                "title": "General aerobic + speed {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -1094,7 +1094,7 @@
             },
             {
                "title": "Endurance {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",
@@ -1110,7 +1110,7 @@
             },
             {
                "title": "Race pace {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "warmup",
@@ -1182,7 +1182,7 @@
             },
             {
                "title": "Recovery {4:6}",
-               "distance": 4.0,
+               "distance": 4,
                "steps": [
                   {
                      "type": "active",
@@ -1195,7 +1195,7 @@
             },
             {
                "title": "Endurance {11:18}",
-               "distance": 11.0,
+               "distance": 11,
                "steps": [
                   {
                      "type": "active",
@@ -1215,7 +1215,7 @@
             },
             {
                "title": "General aerobic + speed {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "warmup",
@@ -1287,7 +1287,7 @@
             },
             {
                "title": "General aerobic {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "active",
@@ -1303,7 +1303,7 @@
             },
             {
                "title": "Recovery {3:5}",
-               "distance": 3.0,
+               "distance": 3,
                "steps": [
                   {
                      "type": "active",
@@ -1316,7 +1316,7 @@
             },
             {
                "title": "5K tune-up race {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -1348,7 +1348,7 @@
             },
             {
                "title": "Endurance {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",
@@ -1368,7 +1368,7 @@
             },
             {
                "title": "General aerobic + speed {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -1410,7 +1410,7 @@
             },
             {
                "title": "Endurance {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",
@@ -1425,8 +1425,8 @@
                "title": "Rest or cross-training"
             },
             {
-               "title": "VO\u2082max {9:14}",
-               "distance": 9.0,
+               "title": "VO₂max {9:14}",
+               "distance": 9,
                "steps": [
                   {
                      "type": "warmup",
@@ -1498,7 +1498,7 @@
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0,
+               "distance": 5,
                "steps": [
                   {
                      "type": "active",
@@ -1511,7 +1511,7 @@
             },
             {
                "title": "Endurance {11:18}",
-               "distance": 11.0,
+               "distance": 11,
                "steps": [
                   {
                      "type": "active",
@@ -1531,7 +1531,7 @@
             },
             {
                "title": "General aerobic + speed {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "warmup",
@@ -1603,7 +1603,7 @@
             },
             {
                "title": "General aerobic {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "active",
@@ -1619,7 +1619,7 @@
             },
             {
                "title": "Recovery {3:5}",
-               "distance": 3.0,
+               "distance": 3,
                "steps": [
                   {
                      "type": "active",
@@ -1632,7 +1632,7 @@
             },
             {
                "title": "5K tune-up race {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -1660,7 +1660,7 @@
             },
             {
                "title": "Endurance {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",
@@ -1680,7 +1680,7 @@
             },
             {
                "title": "General aerobic + speed {6:10}",
-               "distance": 6.0,
+               "distance": 6,
                "steps": [
                   {
                      "type": "warmup",
@@ -1722,7 +1722,7 @@
             },
             {
                "title": "Recovery {4:6}",
-               "distance": 4.0,
+               "distance": 4,
                "steps": [
                   {
                      "type": "active",
@@ -1734,8 +1734,8 @@
                ]
             },
             {
-               "title": "VO\u2082max {8:13}",
-               "distance": 8.0,
+               "title": "VO₂max {8:13}",
+               "distance": 8,
                "steps": [
                   {
                      "type": "warmup",
@@ -1810,7 +1810,7 @@
             },
             {
                "title": "Recovery {4:6}",
-               "distance": 4.0,
+               "distance": 4,
                "steps": [
                   {
                      "type": "active",
@@ -1823,7 +1823,7 @@
             },
             {
                "title": "General aerobic {8:13}",
-               "distance": 8.0,
+               "distance": 8,
                "steps": [
                   {
                      "type": "active",
@@ -1840,7 +1840,7 @@
          "workouts": [
             {
                "title": "Race pace + speed {6:10}",
-               "distance": 6.0,
+               "distance": 6,
                "steps": [
                   {
                      "type": "warmup",
@@ -1894,7 +1894,7 @@
             },
             {
                "title": "Recovery {3:5}",
-               "distance": 3.0,
+               "distance": 3,
                "steps": [
                   {
                      "type": "active",
@@ -1907,7 +1907,7 @@
             },
             {
                "title": "Recovery {4:6}",
-               "distance": 4.0,
+               "distance": 4,
                "steps": [
                   {
                      "type": "active",
@@ -1923,7 +1923,7 @@
             },
             {
                "title": "Recovery {3:5}",
-               "distance": 3.0,
+               "distance": 3,
                "steps": [
                   {
                      "type": "warmup",
@@ -1965,7 +1965,7 @@
             },
             {
                "title": "8K or 10K goal race {11:18}",
-               "distance": 11.0,
+               "distance": 11,
                "steps": [
                   {
                      "type": "warmup",
@@ -1993,7 +1993,7 @@
             },
             {
                "title": "Recovery {4:6}",
-               "distance": 4.0,
+               "distance": 4,
                "steps": [
                   {
                      "type": "active",
@@ -2013,7 +2013,7 @@
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0,
+               "distance": 5,
                "steps": [
                   {
                      "type": "active",
@@ -2026,7 +2026,7 @@
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0,
+               "distance": 5,
                "steps": [
                   {
                      "type": "active",
@@ -2039,7 +2039,7 @@
             },
             {
                "title": "Recovery {6:10}",
-               "distance": 6.0,
+               "distance": 6,
                "steps": [
                   {
                      "type": "active",
@@ -2055,7 +2055,7 @@
             },
             {
                "title": "General aerobic + speed {7:11}",
-               "distance": 7.0,
+               "distance": 7,
                "steps": [
                   {
                      "type": "warmup",
@@ -2097,7 +2097,7 @@
             },
             {
                "title": "General aerobic {9:14}",
-               "distance": 9.0,
+               "distance": 9,
                "steps": [
                   {
                      "type": "active",

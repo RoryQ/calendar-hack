@@ -12,26 +12,26 @@
                "title": "30 min cross"
             },
             {
-               "distance": 3.0,
+               "distance": 3,
                "title": "{3.0:4.8} run"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} run"
             },
             {
-               "distance": 3.0,
+               "distance": 3,
                "title": "{3.0:4.8} run"
             },
             {
                "title": "Rest"
             },
             {
-               "distance": 3.0,
+               "distance": 3,
                "title": "{3.0:4.8} run"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} run"
             }
          ]
@@ -42,26 +42,26 @@
                "title": "30 min cross"
             },
             {
-               "distance": 3.0,
+               "distance": 3,
                "title": "{3.0:4.8} run"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} pace"
             },
             {
-               "distance": 3.0,
+               "distance": 3,
                "title": "{3.0:4.8} run"
             },
             {
                "title": "Rest"
             },
             {
-               "distance": 3.0,
+               "distance": 3,
                "title": "{3.0:4.8} pace"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} run"
             }
          ]
@@ -76,7 +76,7 @@
                "title": "{3.5:5.6} run"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} run"
             },
             {
@@ -90,7 +90,7 @@
                "title": "Rest"
             },
             {
-               "distance": 6.0,
+               "distance": 6,
                "title": "{6.0:9.7} run"
             }
          ]
@@ -105,7 +105,7 @@
                "title": "{3.5:5.6} run"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} pace"
             },
             {
@@ -116,11 +116,11 @@
                "title": "Rest"
             },
             {
-               "distance": 3.0,
+               "distance": 3,
                "title": "{3.0:4.8} run"
             },
             {
-               "distance": 7.0,
+               "distance": 7,
                "title": "{7.0:11.3} run"
             }
          ]
@@ -131,26 +131,26 @@
                "title": "40 min cross"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} run"
             },
             {
-               "distance": 6.0,
+               "distance": 6,
                "title": "{6.0:9.7} run"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} run"
             },
             {
                "title": "Rest"
             },
             {
-               "distance": 3.0,
+               "distance": 3,
                "title": "{3.0:4.8} pace"
             },
             {
-               "distance": 8.0,
+               "distance": 8,
                "title": "{8.0:12.9} run"
             }
          ]
@@ -161,15 +161,15 @@
                "title": "50 min cross"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} run"
             },
             {
-               "distance": 6.0,
+               "distance": 6,
                "title": "{6.0:9.7} pace"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} run"
             },
             {
@@ -194,7 +194,7 @@
                "title": "{4.5:7.2} run"
             },
             {
-               "distance": 7.0,
+               "distance": 7,
                "title": "{7.0:11.3} run"
             },
             {
@@ -205,11 +205,11 @@
                "title": "Rest"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} pace"
             },
             {
-               "distance": 9.0,
+               "distance": 9,
                "title": "{9.0:14.5} run"
             }
          ]
@@ -224,7 +224,7 @@
                "title": "{4.5:7.2} run"
             },
             {
-               "distance": 7.0,
+               "distance": 7,
                "title": "{7.0:11.3} pace"
             },
             {
@@ -235,11 +235,11 @@
                "title": "Rest"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} pace"
             },
             {
-               "distance": 10.0,
+               "distance": 10,
                "title": "{10.0:16.1} run"
             }
          ]
@@ -250,15 +250,15 @@
                "title": "60 min cross"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} run"
             },
             {
-               "distance": 8.0,
+               "distance": 8,
                "title": "{8.0:12.9} run"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} run"
             },
             {
@@ -279,26 +279,26 @@
                "title": "Rest"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} run"
             },
             {
-               "distance": 8.0,
+               "distance": 8,
                "title": "{8.0:12.9} pace"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} run"
             },
             {
                "title": "Rest"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} pace"
             },
             {
-               "distance": 11.0,
+               "distance": 11,
                "title": "{11.0:17.7} run"
             }
          ]
@@ -309,26 +309,26 @@
                "title": "60 min cross"
             },
             {
-               "distance": 5.0,
+               "distance": 5,
                "title": "{5.0:8.0} run"
             },
             {
-               "distance": 6.0,
+               "distance": 6,
                "title": "{6.0:9.7} run"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} run"
             },
             {
                "title": "Rest"
             },
             {
-               "distance": 3.0,
+               "distance": 3,
                "title": "{3.0:4.8} pace"
             },
             {
-               "distance": 12.0,
+               "distance": 12,
                "title": "{12.0:19.3} run"
             }
          ]
@@ -339,15 +339,15 @@
                "title": "Rest"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} run"
             },
             {
-               "distance": 4.0,
+               "distance": 4,
                "title": "{4.0:6.4} pace"
             },
             {
-               "distance": 2.0,
+               "distance": 2,
                "title": "{2.0:3.2} run"
             },
             {

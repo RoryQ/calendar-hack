@@ -1,0 +1,1499 @@
+id: pfitz_18_55_4th_structured
+name: "Pfitzinger/Douglas: Up to 55 miles per week, 18-week schedule (Structured)"
+description: "\"Up to 55 miles per week, 18-week schedule\" from \"Advanced Marathoning (fourth edition)\" by Pete Pfitzinger and Scott Douglas"
+units: mi
+source: https://www.amazon.com/dp/1718237472
+type: Marathon
+schedule:
+  - workouts:
+      - title: Rest or cross-train
+      - title: LT {8-9:13-14} with 20-25 minutes at LT pace
+        distance:
+          - 8
+          - 9
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 25
+              unit: min
+            name: LT interval
+            target:
+              type: heart_rate
+              zone: 4
+          - type: cooldown
+            duration:
+              value: 7
+              unit: mi
+      - title: Rest or cross-train
+      - title: Gen-aerobic {8-10:13-16}
+        distance:
+          - 8
+          - 10
+        steps:
+          - type: active
+            duration:
+              value: 10
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Med-long run {11-12:18-19}
+        distance:
+          - 11
+          - 12
+        steps:
+          - type: active
+            duration:
+              value: 12
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Gen-aerobic + speed {8-9:13-14} with 6 x 10 sec hill sprints + 8 x 100 m strides
+        distance:
+          - 8
+          - 9
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: General aerobic
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 10
+                  unit: sec
+                name: Uphill
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: active
+            duration:
+              value: 1
+              unit: mi
+            name: Transition
+          - type: repeat
+            count: 8
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 6
+              unit: mi
+      - title: Rest or cross-train
+      - title: Gen-aerobic {9-10:14-16}
+        distance:
+          - 9
+          - 10
+        steps:
+          - type: active
+            duration:
+              value: 10
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Marathon-pace run {12-14:19-23} with {8:13} at marathon pace
+        distance:
+          - 12
+          - 14
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 8
+              unit: mi
+            name: Marathon pace
+            target:
+              type: pace
+              value: Marathon
+          - type: cooldown
+            duration:
+              value: 4
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Gen-aerobic {9-10:14-16}
+        distance:
+          - 9
+          - 10
+        steps:
+          - type: active
+            duration:
+              value: 10
+              unit: mi
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: LT {8-9:13-14} with 25-30 minutes at LT pace
+        distance:
+          - 8
+          - 9
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 30
+              unit: min
+            name: LT interval
+            target:
+              type: heart_rate
+              zone: 4
+          - type: cooldown
+            duration:
+              value: 7
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Med-long run {14-15:23-24}
+        distance:
+          - 14
+          - 15
+        steps:
+          - type: active
+            duration:
+              value: 15
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Gen-aerobic + speed {8-9:13-14} with 6 x 10 sec hill sprints + 8 x 100 m strides
+        distance:
+          - 8
+          - 9
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: General aerobic
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 10
+                  unit: sec
+                name: Uphill
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: active
+            duration:
+              value: 1
+              unit: mi
+            name: Transition
+          - type: repeat
+            count: 8
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 6
+              unit: mi
+      - title: Recovery {4-6:6-10}
+        distance:
+          - 4
+          - 6
+        steps:
+          - type: active
+            duration:
+              value: 6
+              unit: mi
+      - title: Gen-aerobic {9-10:14-16}
+        distance:
+          - 9
+          - 10
+        steps:
+          - type: active
+            duration:
+              value: 10
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Long run {15-17:24-27}
+        distance:
+          - 15
+          - 17
+        steps:
+          - type: active
+            duration:
+              value: 17
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: LT {9-10:14-16} with 30-35 minutes at LT pace
+        distance:
+          - 9
+          - 10
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 35
+              unit: min
+            name: LT interval
+            target:
+              type: heart_rate
+              zone: 4
+          - type: cooldown
+            duration:
+              value: 8
+              unit: mi
+      - title: Recovery {5-6:8-10}
+        distance:
+          - 5
+          - 6
+        steps:
+          - type: active
+            duration:
+              value: 6
+              unit: mi
+      - title: Gen-aerobic {9-10:14-16}
+        distance:
+          - 9
+          - 10
+        steps:
+          - type: active
+            duration:
+              value: 10
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Marathon-pace run {15-17:24-27} with {10:16} at marathon pace
+        distance:
+          - 15
+          - 17
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 10
+              unit: mi
+            name: Marathon pace
+            target:
+              type: pace
+              value: Marathon
+          - type: cooldown
+            duration:
+              value: 5
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Gen-aerobic + speed {7-8:11-13} with 10 x 100 m strides
+        distance:
+          - 7
+          - 8
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: General aerobic
+          - type: repeat
+            count: 10
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 6
+              unit: mi
+      - title: Recovery {4-6:6-10}
+        distance:
+          - 4
+          - 6
+        steps:
+          - type: active
+            duration:
+              value: 6
+              unit: mi
+      - title: Gen-aerobic {7-9:11-14}
+        distance:
+          - 7
+          - 9
+        steps:
+          - type: active
+            duration:
+              value: 9
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Med-long run {11-12:18-19}
+        distance:
+          - 11
+          - 12
+        steps:
+          - type: active
+            duration:
+              value: 12
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: LT {9-10:14-16} with 30-35 minutes at LT pace
+        distance:
+          - 9
+          - 10
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 35
+              unit: min
+            name: LT interval
+            target:
+              type: heart_rate
+              zone: 4
+          - type: cooldown
+            duration:
+              value: 8
+              unit: mi
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Med-long run {11-12:18-19}
+        distance:
+          - 11
+          - 12
+        steps:
+          - type: active
+            duration:
+              value: 12
+              unit: mi
+      - title: Rest or cross-train
+      - title: Gen-aerobic + speed {7-8:11-13} with 6 x 10 sec hill sprints + 8 x 100 m strides
+        distance:
+          - 7
+          - 8
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: General aerobic
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 10
+                  unit: sec
+                name: Uphill
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: active
+            duration:
+              value: 1
+              unit: mi
+            name: Transition
+          - type: repeat
+            count: 8
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 5
+              unit: mi
+      - title: Long run {17-19:27-31}
+        distance:
+          - 17
+          - 19
+        steps:
+          - type: active
+            duration:
+              value: 19
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Recovery + speed {6-7:10-11} with 6 x 100 m strides
+        distance:
+          - 6
+          - 7
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 5
+              unit: mi
+      - title: Med-long run {12-13:19-21}
+        distance:
+          - 12
+          - 13
+        steps:
+          - type: active
+            duration:
+              value: 13
+              unit: mi
+      - title: Rest or cross-train
+      - title: LT {10-11:16-18} with 35-40 minutes at LT pace
+        distance:
+          - 10
+          - 11
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 40
+              unit: min
+            name: LT interval
+            target:
+              type: heart_rate
+              zone: 4
+          - type: cooldown
+            duration:
+              value: 9
+              unit: mi
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Long run {19-21:31-34}
+        distance:
+          - 19
+          - 21
+        steps:
+          - type: active
+            duration:
+              value: 21
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Recovery {6-7:10-11}
+        distance:
+          - 6
+          - 7
+        steps:
+          - type: active
+            duration:
+              value: 7
+              unit: mi
+      - title: Med-long run {13-14:21-23}
+        distance:
+          - 13
+          - 14
+        steps:
+          - type: active
+            duration:
+              value: 14
+              unit: mi
+      - title: Recovery {6-7:10-11}
+        distance:
+          - 6
+          - 7
+        steps:
+          - type: active
+            duration:
+              value: 7
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery + speed {5-6:8-10} with 6 x 100 m strides
+        distance:
+          - 5
+          - 6
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 4
+              unit: mi
+      - title: Marathon-pace run {16-17:26-27} with {12:19} at marathon pace
+        distance:
+          - 16
+          - 17
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 12
+              unit: mi
+            name: Marathon pace
+            target:
+              type: pace
+              value: Marathon
+          - type: cooldown
+            duration:
+              value: 3
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Gen-aerobic {8-9:13-14}
+        distance:
+          - 8
+          - 9
+        steps:
+          - type: active
+            duration:
+              value: 9
+              unit: mi
+      - title: VO₂max {8-9:13-14} with 6 x 600 m at 5K race pace; jog 50%-90% interval time
+        distance:
+          - 8
+          - 9
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 600
+                  unit: m
+                name: VO2max interval
+                target:
+                  type: heart_rate
+                  zone: 5
+              - type: rest
+                duration:
+                  value: 3
+                  unit: min
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Rest or cross-train
+      - title: Gen-aerobic + speed {7-8:11-13} with 6 x 10 sec hill sprints + 8 x 100 m strides
+        distance:
+          - 7
+          - 8
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: General aerobic
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 10
+                  unit: sec
+                name: Uphill
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: active
+            duration:
+              value: 1
+              unit: mi
+            name: Transition
+          - type: repeat
+            count: 8
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 5
+              unit: mi
+      - title: Med-long run {13-14:21-23}
+        distance:
+          - 13
+          - 14
+        steps:
+          - type: active
+            duration:
+              value: 14
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Recovery + speed {6-7:10-11} with 6 x 100 m strides
+        distance:
+          - 6
+          - 7
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 5
+              unit: mi
+      - title: LT {11-12:18-19} with 35-45 minutes at LT pace
+        distance:
+          - 11
+          - 12
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 45
+              unit: min
+            name: LT interval
+            target:
+              type: heart_rate
+              zone: 4
+          - type: cooldown
+            duration:
+              value: 10
+              unit: mi
+      - title: Rest or cross-train
+      - title: Med-long run {12-13:19-21}
+        distance:
+          - 12
+          - 13
+        steps:
+          - type: active
+            duration:
+              value: 13
+              unit: mi
+      - title: Recovery {4-6:6-10}
+        distance:
+          - 4
+          - 6
+        steps:
+          - type: active
+            duration:
+              value: 6
+              unit: mi
+      - title: Long run {19-21:31-34}
+        distance:
+          - 19
+          - 21
+        steps:
+          - type: active
+            duration:
+              value: 21
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Gen-aerobic {10-11:16-18}
+        distance:
+          - 10
+          - 11
+        steps:
+          - type: active
+            duration:
+              value: 11
+              unit: mi
+      - title: VO₂max {8-9:13-14} with 5 x 600 m at 5K race pace; jog 50%-90% interval time
+        distance:
+          - 8
+          - 9
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: repeat
+            count: 5
+            steps:
+              - type: active
+                duration:
+                  value: 600
+                  unit: m
+                name: VO2max interval
+                target:
+                  type: heart_rate
+                  zone: 5
+              - type: rest
+                duration:
+                  value: 3
+                  unit: min
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery + speed {4-5:6-8} with 6 x 100 m strides
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 3
+              unit: mi
+      - title: 8K-15K tune-up race (total {10-13:16-21})
+        distance:
+          - 10
+          - 13
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 10
+              unit: km
+            name: Tune-up Race
+            target:
+              type: pace
+              value: 10K
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+      - title: Long run {16-17:26-27}
+        distance:
+          - 16
+          - 17
+        steps:
+          - type: active
+            duration:
+              value: 17
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Recovery {6-7:10-11}
+        distance:
+          - 6
+          - 7
+        steps:
+          - type: active
+            duration:
+              value: 7
+              unit: mi
+      - title: VO₂max {9-11:14-18} with 5 x 1 km at 5K race pace; jog 50%-90% interval time
+        distance:
+          - 9
+          - 11
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: repeat
+            count: 5
+            steps:
+              - type: active
+                duration:
+                  value: 1
+                  unit: km
+                name: VO2max interval
+                target:
+                  type: heart_rate
+                  zone: 5
+              - type: rest
+                duration:
+                  value: 3
+                  unit: min
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+      - title: Rest or cross-train
+      - title: Med-long run {11-12:18-19}
+        distance:
+          - 11
+          - 12
+        steps:
+          - type: active
+            duration:
+              value: 12
+              unit: mi
+      - title: Recovery {5-6:8-10}
+        distance:
+          - 5
+          - 6
+        steps:
+          - type: active
+            duration:
+              value: 6
+              unit: mi
+      - title: Marathon-pace run {17-18:27-29} with {14:23} at marathon pace
+        distance:
+          - 17
+          - 18
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 14
+              unit: mi
+            name: Marathon pace
+            target:
+              type: pace
+              value: Marathon
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Gen-aerobic {10-11:16-18}
+        distance:
+          - 10
+          - 11
+        steps:
+          - type: active
+            duration:
+              value: 11
+              unit: mi
+      - title: VO₂max {8-9:13-14} with 5 x 600 m at 5k race pace; jog 50%-90% interval time
+        distance:
+          - 8
+          - 9
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: repeat
+            count: 5
+            steps:
+              - type: active
+                duration:
+                  value: 600
+                  unit: m
+                name: VO2max interval
+                target:
+                  type: heart_rate
+                  zone: 5
+              - type: rest
+                duration:
+                  value: 3
+                  unit: min
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery + speed {4-5:6-8} with 6 x 100 m strides
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 3
+              unit: mi
+      - title: 8K-15K tune-up race (total {10-13:16-21})
+        distance:
+          - 10
+          - 13
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 10
+              unit: km
+            name: Tune-up Race
+            target:
+              type: pace
+              value: 10K
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+      - title: Long run {16-17:26-27}
+        distance:
+          - 16
+          - 17
+        steps:
+          - type: active
+            duration:
+              value: 17
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Recovery + speed {6-7:10-11} with 6 x 100 m strides
+        distance:
+          - 6
+          - 7
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 5
+              unit: mi
+      - title: VO₂max {9-10:14-16} with 5 x 1 km at 5K race pace; jog 50%-90% interval time
+        distance:
+          - 9
+          - 10
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: repeat
+            count: 5
+            steps:
+              - type: active
+                duration:
+                  value: 1
+                  unit: km
+                name: VO2max interval
+                target:
+                  type: heart_rate
+                  zone: 5
+              - type: rest
+                duration:
+                  value: 3
+                  unit: min
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+      - title: Rest or cross-train
+      - title: Med-long run {11-12:18-19}
+        distance:
+          - 11
+          - 12
+        steps:
+          - type: active
+            duration:
+              value: 12
+              unit: mi
+      - title: Recovery {4-5:6-8}
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: active
+            duration:
+              value: 5
+              unit: mi
+      - title: Long run {19-21:31-34}
+        distance:
+          - 19
+          - 21
+        steps:
+          - type: active
+            duration:
+              value: 21
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Gen-aerobic + speed {7-8:11-13} with 6 x 10 sec hill sprints + 10 x 100 m strides
+        distance:
+          - 7
+          - 8
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: General aerobic
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 10
+                  unit: sec
+                name: Uphill
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: active
+            duration:
+              value: 1
+              unit: mi
+            name: Transition
+          - type: repeat
+            count: 10
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 5
+              unit: mi
+      - title: Recovery {5-6:8-10}
+        distance:
+          - 5
+          - 6
+        steps:
+          - type: active
+            duration:
+              value: 6
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery + speed {4-5:6-8} with 6 x 100 m strides
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 3
+              unit: mi
+      - title: 8K-10k tune-up race (total {9-12:14-19})
+        distance:
+          - 9
+          - 12
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: active
+            duration:
+              value: 10
+              unit: km
+            name: Tune-up Race
+            target:
+              type: pace
+              value: 10K
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+      - title: Long run {16-17:26-27}
+        distance:
+          - 16
+          - 17
+        steps:
+          - type: active
+            duration:
+              value: 17
+              unit: mi
+  - workouts:
+      - title: Rest or cross-train
+      - title: Recovery + speed {6-7:10-11} with 8 x 100 m strides
+        distance:
+          - 6
+          - 7
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 8
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 5
+              unit: mi
+      - title: VO₂max {8-9:13-14} with 5 x 1 km at 5K race pace; jog 50%-90% interval time
+        distance:
+          - 8
+          - 9
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+          - type: repeat
+            count: 5
+            steps:
+              - type: active
+                duration:
+                  value: 1
+                  unit: km
+                name: VO2max interval
+                target:
+                  type: heart_rate
+                  zone: 5
+              - type: rest
+                duration:
+                  value: 3
+                  unit: min
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 2
+              unit: mi
+      - title: Rest or cross-train
+      - title: Recovery + speed {5-6:8-10} with 6 x 100 m strides
+        distance:
+          - 5
+          - 6
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 4
+              unit: mi
+      - title: Rest or cross-train
+      - title: Med-long run {12-13:19-21}
+        distance:
+          - 12
+          - 13
+        steps:
+          - type: active
+            duration:
+              value: 13
+              unit: mi
+  - workouts:
+      - title: Rest
+      - title: Recovery {5-6:8-10}
+        distance:
+          - 5
+          - 6
+        steps:
+          - type: active
+            duration:
+              value: 6
+              unit: mi
+      - title: Dress rehearsal {5-6:8-10} with {2:3} at marathon pace
+        distance:
+          - 5
+          - 6
+        steps:
+          - type: active
+            duration:
+              value: 6
+              unit: mi
+      - title: Rest
+      - title: Recovery + speed {4-5:6-8} with 6 x 100 m strides
+        distance:
+          - 4
+          - 5
+        steps:
+          - type: warmup
+            duration:
+              value: 2
+              unit: mi
+            name: Recovery
+          - type: repeat
+            count: 6
+            steps:
+              - type: active
+                duration:
+                  value: 100
+                  unit: m
+                name: Strides
+              - type: rest
+                duration:
+                  value: 60
+                  unit: sec
+                name: Recovery
+          - type: cooldown
+            duration:
+              value: 3
+              unit: mi
+      - title: Recovery {2-4:3-6}
+        distance:
+          - 2
+          - 4
+        steps:
+          - type: active
+            duration:
+              value: 4
+              unit: mi
+      - title: Goal Marathon
+        distance: 26.2
+        steps:
+          - type: active
+            duration:
+              value: 26.2
+              unit: mi

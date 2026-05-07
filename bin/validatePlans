@@ -1,10 +1,42 @@
-#!/usr/bin/env bash
+#!/usr/bin/env node
+import Ajv from 'ajv';
+import yaml from 'js-yaml';
+import fs from 'fs';
+import path from 'path';
 
-# Validate each plan in the plans dir against plan-schema.json
-FILES=./public/plans/yaml/*.yaml
-for f in $FILES
-do
-  echo "Validating plan $f ..."
-  ajv -s ./public/schema/plan-schema.json -d $f
-done
+const schema = JSON.parse(fs.readFileSync('public/schema/plan-schema.json', 'utf8'));
+const ajv = new Ajv();
+const validate = ajv.compile(schema);
 
+const target = process.argv[2];
+
+function validateFile(file) {
+    console.log(`Validating plan ${file} ...`);
+    try {
+        const data = yaml.load(fs.readFileSync(file, 'utf8'));
+        const valid = validate(data);
+
+        if (!valid) {
+            console.error('Validation failed for ' + file);
+            console.error(JSON.stringify(validate.errors, null, 2));
+            process.exit(1);
+        } else {
+            console.log('Validation successful for ' + file);
+        }
+    } catch (e) {
+        console.error('Error reading or parsing file: ' + file);
+        console.error(e.message);
+        process.exit(1);
+    }
+}
+
+if (target) {
+    validateFile(target);
+} else {
+    const srcPath = 'public/plans/yaml';
+    fs.readdirSync(srcPath).forEach(file => {
+        if (file.endsWith('.yaml')) {
+            validateFile(path.join(srcPath, file));
+        }
+    });
+}

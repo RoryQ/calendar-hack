@@ -10,14 +10,14 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "3 x hill"
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "30 tempo"
@@ -27,11 +27,11 @@
             },
             {
                "title": "{5:8.1} pace",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "{10:16.1}",
-               "distance": 10.0
+               "distance": 10
             }
          ]
       },
@@ -39,29 +39,29 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "30 tempo"
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "{3:4.8} pace",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "Rest"
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "{11:17.7}",
-               "distance": 11.0
+               "distance": 11
             }
          ]
       },
@@ -69,14 +69,14 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "4 x 800"
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "30 tempo"
@@ -86,11 +86,11 @@
             },
             {
                "title": "{6:9.7} pace",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "{8:12.9}",
-               "distance": 8.0
+               "distance": 8
             }
          ]
       },
@@ -98,14 +98,14 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "4 x hill"
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "35 tempo"
@@ -115,11 +115,11 @@
             },
             {
                "title": "{6:9.7} pace",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "{13:21.0}",
-               "distance": 13.0
+               "distance": 13
             }
          ]
       },
@@ -127,29 +127,29 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "35 tempo"
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "{3:4.8} pace",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "Rest"
             },
             {
                "title": "{7:11.3} run",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "{14:22.5}",
-               "distance": 14.0
+               "distance": 14
             }
          ]
       },
@@ -157,14 +157,14 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "5 x 800"
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "35 tempo"
@@ -174,11 +174,11 @@
             },
             {
                "title": "{7:11.3} pace",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "{10:16.1}",
-               "distance": 10.0
+               "distance": 10
             }
          ]
       },
@@ -186,14 +186,14 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "5 x hill"
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "40 tempo"
@@ -203,11 +203,11 @@
             },
             {
                "title": "{8:12.9} pace",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "{16:25.7}",
-               "distance": 16.0
+               "distance": 16
             }
          ]
       },
@@ -215,29 +215,29 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "40 tempo"
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "{3:4.8} pace",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "Rest"
             },
             {
                "title": "{8:12.9} run",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "{17:27.4}",
-               "distance": 17.0
+               "distance": 17
             }
          ]
       },
@@ -245,14 +245,14 @@
          "workouts": [
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "6 x 800"
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "40 tempo"
@@ -273,14 +273,14 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "6 x hill"
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "45 tempo"
@@ -290,11 +290,11 @@
             },
             {
                "title": "{9:14.5} pace",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "{19:30.6}",
-               "distance": 19.0
+               "distance": 19
             }
          ]
       },
@@ -302,29 +302,29 @@
          "workouts": [
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "45 tempo"
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "{4:6.4} pace",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Rest"
             },
             {
                "title": "{10:16.1} run",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "{20:32.2}",
-               "distance": 20.0
+               "distance": 20
             }
          ]
       },
@@ -332,14 +332,14 @@
          "workouts": [
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "7 x 800"
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "45 tempo"
@@ -349,11 +349,11 @@
             },
             {
                "title": "{6:9.7} pace",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "{12:19.3}",
-               "distance": 12.0
+               "distance": 12
             }
          ]
       },
@@ -361,14 +361,14 @@
          "workouts": [
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "7 x hill"
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "50 tempo"
@@ -378,11 +378,11 @@
             },
             {
                "title": "{10:16.1} pace",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "{20:32.2}",
-               "distance": 20.0
+               "distance": 20
             }
          ]
       },
@@ -390,29 +390,29 @@
          "workouts": [
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "45 tempo"
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "{5:8.1} pace",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Rest"
             },
             {
                "title": "{6:9.7} run",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "{12:19.3}",
-               "distance": 12.0
+               "distance": 12
             }
          ]
       },
@@ -420,14 +420,14 @@
          "workouts": [
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "8 x 800"
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "40 tempo"
@@ -437,11 +437,11 @@
             },
             {
                "title": "{10:16.1} pace",
-               "distance": 10.0
+               "distance": 10
             },
             {
                "title": "{20:32.2}",
-               "distance": 20.0
+               "distance": 20
             }
          ]
       },
@@ -449,14 +449,14 @@
          "workouts": [
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "6 x hill"
             },
             {
                "title": "{5:8.1} run",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "30 tempo"
@@ -466,11 +466,11 @@
             },
             {
                "title": "{4:6.4} pace",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "{12:19.3}",
-               "distance": 12.0
+               "distance": 12
             }
          ]
       },
@@ -478,29 +478,29 @@
          "workouts": [
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "30 tempo"
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "{4:6.4} pace",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Rest"
             },
             {
                "title": "{4:6.4} run",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "{8:12.9}",
-               "distance": 8.0
+               "distance": 8
             }
          ]
       },
@@ -508,14 +508,14 @@
          "workouts": [
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "4 x 400"
             },
             {
                "title": "{3:4.8} run",
-               "distance": 3.0
+               "distance": 3
             },
             {
                "title": "Rest"
@@ -525,7 +525,7 @@
             },
             {
                "title": "{2:3.2} run",
-               "distance": 2.0
+               "distance": 2
             },
             {
                "title": "Marathon ({26.2:42.2})",

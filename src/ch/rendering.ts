@@ -125,6 +125,24 @@ export function renderStr(input: string, from: Units, to: Units): string {
   return handle_conversions(input, from, to);
 }
 
+export function formatDuration(duration: { value: number, unit: string }, to: Units): string {
+  if (duration.unit === "min" || duration.unit === "sec" || duration.unit === "m" || duration.unit === "percent") {
+    return `${duration.value} ${duration.unit}`;
+  }
+
+  if (duration.unit === "mi" && to === "km") {
+    const val = miToKm(duration.value);
+    return `${Number.isInteger(val) ? val.toFixed(0) : val.toFixed(1)} km`;
+  }
+
+  if (duration.unit === "km" && to === "mi") {
+    const val = kmToMiles(duration.value);
+    return `${Number.isInteger(val) ? val.toFixed(0) : val.toFixed(1)} mi`;
+  }
+
+  return `${duration.value} ${duration.unit}`;
+}
+
 export function render(
   input: DayDetails,
   from: Units,

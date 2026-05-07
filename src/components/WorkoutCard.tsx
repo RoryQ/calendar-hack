@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "../ch/rendering";
+import { render, formatDuration } from "../ch/rendering";
 import { Dateline } from "./Dateline";
 import { useDrag, DragSourceMonitor } from "react-dnd";
 import { ItemTypes } from "../ch/ItemTypes";
@@ -15,7 +15,7 @@ interface Props {
   swap: (d1: Date, d2: Date) => void;
 }
 
-function renderSteps(steps: WorkoutStep[]): React.ReactElement {
+function renderSteps(steps: WorkoutStep[], to: Units): React.ReactElement {
   return (
     <ul className="workout-steps">
       {steps.map((step, i) => {
@@ -23,12 +23,12 @@ function renderSteps(steps: WorkoutStep[]): React.ReactElement {
           return (
             <li key={i} className="workout-step-repeat">
               <strong>Repeat {step.count}x:</strong>
-              {step.steps && renderSteps(step.steps)}
+              {step.steps && renderSteps(step.steps, to)}
             </li>
           );
         }
         const durationStr = step.duration 
-          ? `${step.duration.value} ${step.duration.unit}`
+          ? formatDuration(step.duration, to)
           : "";
         const targetStr = step.target
           ? ` (${step.target.type === 'heart_rate' ? 'HR Zone ' + step.target.zone : step.target.value || step.target.type})`
@@ -62,7 +62,7 @@ function renderDesc(
           <span className="workout-description">{desc}</span>
         </p>
       }
-      {dayDetails.steps && renderSteps(dayDetails.steps)}
+      {dayDetails.steps && renderSteps(dayDetails.steps, to)}
     </>
   );
 }

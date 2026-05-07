@@ -16,22 +16,22 @@
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Rest or cross-train"
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Recovery {7:11}",
-               "distance": 7.0
+               "distance": 7
             }
          ]
       },
@@ -42,26 +42,26 @@
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Rest or cross-train"
             },
             {
                "title": "Gen-aerobic + speed {7:11} with 8 x 100 m strides",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Gen-aerobic {10:16}",
-               "distance": 10.0
+               "distance": 10
             }
          ]
       },
@@ -72,26 +72,26 @@
             },
             {
                "title": "Recovery {6:10}",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Gen-aerobic {9:14}",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Rest or cross-train"
             },
             {
                "title": "Gen-aerobic + speed {9:14} with 8 x 100 m strides",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Med-long run {13:21}",
-               "distance": 13.0
+               "distance": 13
             }
          ]
       },
@@ -102,27 +102,27 @@
             },
             {
                "title": "Gen-aerobic + speed {8:13} with 6 x 10 sec hill sprints + 8 x 100 m strides",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Med-long run {12:19}",
-               "distance": 12.0
+               "distance": 12
             },
             {
                "title": "Recovery {4:6}",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "LT {9:14} with {5:8} at LT pace",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Recovery + speed {5:8} with 6 x 100 m strides",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Long run {17:27}",
-               "distance": 17.0
+               "distance": 17
             }
          ]
       },
@@ -133,27 +133,27 @@
             },
             {
                "title": "Recovery {6:10}",
-               "distance": 6.0
+               "distance": 6
             },
             {
-               "title": "VO\u2082max {10:16} with 5 x 1,000 m at 5K race pace; jog 50-90% interval time",
-               "distance": 10.0
+               "title": "VO₂max {10:16} with 5 x 1,000 m at 5K race pace; jog 50-90% interval time",
+               "distance": 10
             },
             {
                "title": "Med-long run {15:24}",
-               "distance": 15.0
+               "distance": 15
             },
             {
                "title": "Gen-aerobic {9:14}",
-               "distance": 9.0
+               "distance": 9
             },
             {
                "title": "Recovery {6:10}",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Long run {20:32}",
-               "distance": 20.0
+               "distance": 20
             }
          ]
       },
@@ -163,31 +163,31 @@
                "title": "Rest or cross-train"
             },
             {
-               "title": "VO\u2082max {9:14} with 6 x 600 m at 5K race pace; jog 50-90% interval time",
-               "distance": 9.0
+               "title": "VO₂max {9:14} with 6 x 600 m at 5K race pace; jog 50-90% interval time",
+               "distance": 9
             },
             {
                "title": "Med-long run {11:18}",
-               "distance": 11.0
+               "distance": 11
             },
             {
                "title": "Recovery + speed {6:10} with 6 x 100 m strides",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "8K-10K tune-up race (total {9-11:14-18})",
                "distance": [
-                  9.0,
-                  11.0
+                  9,
+                  11
                ]
             },
             {
                "title": "Long run {17:27}",
-               "distance": 17.0
+               "distance": 17
             }
          ]
       },
@@ -198,27 +198,27 @@
             },
             {
                "title": "Gen-aerobic + speed {8:13} with 8 x 100 m strides",
-               "distance": 8.0
+               "distance": 8
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
-               "title": "VO\u2082max {9:14} with 4 x 1,200 m at 5K race pace; jog 50-90% interval time",
-               "distance": 9.0
+               "title": "VO₂max {9:14} with 4 x 1,200 m at 5K race pace; jog 50-90% interval time",
+               "distance": 9
             },
             {
                "title": "Recovery {5:8}",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Recovery + speed {6:10} with 8 x 100 m strides",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Med-long run {13:21}",
-               "distance": 13.0
+               "distance": 13
             }
          ]
       },
@@ -229,23 +229,23 @@
             },
             {
                "title": "Recovery {6:10}",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Dress rehearsal {7:11} with {2:3} at marathon pace",
-               "distance": 7.0
+               "distance": 7
             },
             {
                "title": "Recovery {6:10}",
-               "distance": 6.0
+               "distance": 6
             },
             {
                "title": "Recovery + speed {5:8} with 6 x 100 m strides",
-               "distance": 5.0
+               "distance": 5
             },
             {
                "title": "Recovery {4:6}",
-               "distance": 4.0
+               "distance": 4
             },
             {
                "title": "Second Marathon",
