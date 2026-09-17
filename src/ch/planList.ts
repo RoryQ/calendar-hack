@@ -270,8 +270,18 @@ export const plans: PlanSummary[] = [
     "Marathon",
   ],
   [
+    "mee_breeze_12_structured",
+    "Marathon Excellence: Breeze 40 or 50 Miles per Week, 12-week schedule (Structured)",
+    "Marathon",
+  ],
+  [
     "mee_breeze_18",
     "Marathon Excellence: Breeze 40 or 50 Miles per Week, 18-week schedule",
+    "Marathon",
+  ],
+  [
+    "mee_breeze_18_structured",
+    "Marathon Excellence: Breeze 40 or 50 Miles per Week, 18-week schedule (Structured)",
     "Marathon",
   ],
   [
@@ -280,8 +290,18 @@ export const plans: PlanSummary[] = [
     "Marathon",
   ],
   [
+    "mee_wind_12_structured",
+    "Marathon Excellence: Wind 55 or 65 Miles per Week, 12-week schedule (Structured)",
+    "Marathon",
+  ],
+  [
     "mee_wind_18",
     "Marathon Excellence: Wind 55 or 65 Miles per Week, 18-week schedule",
+    "Marathon",
+  ],
+  [
+    "mee_wind_18_structured",
+    "Marathon Excellence: Wind 55 or 65 Miles per Week, 18-week schedule (Structured)",
     "Marathon",
   ],
   [
@@ -290,8 +310,18 @@ export const plans: PlanSummary[] = [
     "Marathon",
   ],
   [
+    "mee_gale_12_structured",
+    "Marathon Excellence: Gale 70 or 80 Miles per Week, 12-week schedule (Structured)",
+    "Marathon",
+  ],
+  [
     "mee_gale_18",
     "Marathon Excellence: Gale 70 or 80 Miles per Week, 18-week schedule",
+    "Marathon",
+  ],
+  [
+    "mee_gale_18_structured",
+    "Marathon Excellence: Gale 70 or 80 Miles per Week, 18-week schedule (Structured)",
     "Marathon",
   ],
   [
@@ -300,8 +330,18 @@ export const plans: PlanSummary[] = [
     "Marathon",
   ],
   [
+    "mee_tornado_12_structured",
+    "Marathon Excellence: Tornado 85 or 95 Miles per Week, 12-week schedule (Structured)",
+    "Marathon",
+  ],
+  [
     "mee_tornado_18",
     "Marathon Excellence: Tornado 85 or 95 Miles per Week, 18-week schedule",
+    "Marathon",
+  ],
+  [
+    "mee_tornado_18_structured",
+    "Marathon Excellence: Tornado 85 or 95 Miles per Week, 18-week schedule (Structured)",
     "Marathon",
   ],
   [
@@ -310,8 +350,18 @@ export const plans: PlanSummary[] = [
     "Marathon",
   ],
   [
+    "mee_hurricane_12_structured",
+    "Marathon Excellence: Hurricane 100 or 120 Miles per Week, 12-week schedule (Structured)",
+    "Marathon",
+  ],
+  [
     "mee_hurricane_18",
     "Marathon Excellence: Hurricane 100 or 120 Miles per Week, 18-week schedule",
+    "Marathon",
+  ],
+  [
+    "mee_hurricane_18_structured",
+    "Marathon Excellence: Hurricane 100 or 120 Miles per Week, 18-week schedule (Structured)",
     "Marathon",
   ],
 ];

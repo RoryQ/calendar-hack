@@ -1,0 +1,2883 @@
+{
+   "id": "mee_tornado_12_structured",
+   "name": "Marathon Excellence: Tornado 85 or 95 Miles per Week, 12-week schedule (Structured)",
+   "description": "\"The Tornado plan uses sophisticated workouts throughout all phases of training to help you reach your full potential in the marathon. It's definitely a demanding plan, both in terms of time and stress on your body, but the reward is a superior fitness level. Tornado is a great fit for runners who do well on high-mileage training and have four or more years of experience, as well as for runners aiming for a big breakthrough or a significant PR, targeting a podium finish, or competing in the elite field.\" - Marathon Excellence for Everyone by John Davis",
+   "units": "mi",
+   "source": "https://www.amazon.com/dp/B0FNRPHLRY",
+   "type": "Marathon",
+   "schedule": [
+      {
+         "workouts": [
+            {
+               "title": "{7:12} Kenyan-style progression run",
+               "distance": [
+                  8,
+                  8
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "Kenyan progression run",
+                     "target": {
+                        "type": "pace",
+                        "value": "Progression"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4:6} very easy / PM: {7-9:12-15} easy",
+               "distance": [
+                  11,
+                  13
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 4,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "2 × (4-3-2-1 min at 96–102% 5k with 1 min moderate between reps, 2–3 min jog between sets)",
+               "distance": [
+                  10,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 2,
+                     "steps": []
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{8-10:12-16} very easy",
+               "distance": [
+                  8,
+                  9
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{8-10:12-16} easy progressing to moderate with 5 × 25 sec strides",
+               "distance": [
+                  8,
+                  9
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{13-14:21-23} at 75–80% 5k through rolling hills",
+               "distance": [
+                  15,
+                  16
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 14,
+                        "unit": "mi"
+                     },
+                     "name": "Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "75–80% 5k through rolling hills"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "{4-5:6-8} very easy",
+               "distance": [
+                  5,
+                  5
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "Very easy run"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "8 × 1 km at 95% 5k with 2 min jog",
+               "distance": [
+                  9,
+                  9
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 8,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "95% 5k"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 2,
+                              "unit": "min"
+                           },
+                           "name": "Jog recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4:6} very easy / PM: {7-9:12-15} easy",
+               "distance": [
+                  11,
+                  12
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 4,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "10 × 3 min at 90–92% 5k with 45 sec jog",
+               "distance": [
+                  10,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 10,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 3,
+                              "unit": "min"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "90–92% 5k"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 45,
+                              "unit": "sec"
+                           },
+                           "name": "Jog recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{8-10:12-16} easy",
+               "distance": [
+                  9,
+                  9
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} easy / PM: {5-7:8-12} moderate",
+               "distance": [
+                  10,
+                  11
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "e"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "{15-17:25-28} easy through rolling hills",
+               "distance": [
+                  15,
+                  17
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 17,
+                        "unit": "mi"
+                     },
+                     "name": "Rolling hills run"
+                  }
+               ]
+            },
+            {
+               "title": "{5-7:8-12} very easy",
+               "distance": [
+                  6,
+                  7
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "Very easy run"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "{8-9:13-15} at 85% 5k",
+               "distance": [
+                  12,
+                  13
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "85% 5k"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4:6} very easy / PM: {7-9:12-15} easy",
+               "distance": [
+                  11,
+                  12
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 4,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "3 × (2 km at 95% 5k, 2 min jog, 1 km at 100% 5k, 4 min jog)",
+               "distance": [
+                  10,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 3,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 2,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "95% 5k"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 2,
+                              "unit": "min"
+                           },
+                           "name": "Jog recovery"
+                        },
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "100% 5k"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 4,
+                              "unit": "min"
+                           },
+                           "name": "Jog recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{7-10:12-16} easy",
+               "distance": [
+                  7,
+                  9
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} easy / PM: {8-10:12-16} easy with 40 min of (1 min at ~95% 5k effort, 3 min easy) in the middle",
+               "distance": [
+                  12,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 10,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "min"
+                           },
+                           "name": "Fast interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "95% 5k effort"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 3,
+                              "unit": "min"
+                           },
+                           "name": "Float recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 3,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{14-15:23-25} at 80% 5k through rolling hills",
+               "distance": [
+                  16,
+                  16
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 15,
+                        "unit": "mi"
+                     },
+                     "name": "Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "80% 5k through rolling hills"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "{5-6:8-10} very easy",
+               "distance": [
+                  6,
+                  6
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "Very easy run"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "AM: {4-5:6-8} very easy / PM: {7-9:12-15} easy with 5 × 25 sec strides",
+               "distance": [
+                  11,
+                  13
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "7 × 4 min at 90–92% 5k with 1 min jog",
+               "distance": [
+                  10,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 7,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 4,
+                              "unit": "min"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "90–92% 5k"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 1,
+                              "unit": "min"
+                           },
+                           "name": "Jog recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy / PM: {7-9:12-15} very easy",
+               "distance": [
+                  11,
+                  13
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{9-10:14-16} at 85% 5k",
+               "distance": [
+                  13,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "85% 5k"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "{7-9:12-15} very easy",
+               "distance": [
+                  7,
+                  8
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{16-18:26-30} easy through rolling hills",
+               "distance": [
+                  16,
+                  17
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 18,
+                        "unit": "mi"
+                     },
+                     "name": "Rolling hills run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy / PM: {5-7:8-12} very easy",
+               "distance": [
+                  10,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "5 × 2 km at 108–110% MP with 4 min jog",
+               "distance": [
+                  10,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 2,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "108–110% MP"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 4,
+                              "unit": "min"
+                           },
+                           "name": "Jog recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: {8-10:12-16} very easy",
+               "distance": [
+                  10,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {5-6:8-10} easy / PM: {9:15} Kenyan-style progression run",
+               "distance": [
+                  15,
+                  16
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Kenyan progression run",
+                     "target": {
+                        "type": "pace",
+                        "value": "Progression"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "{8-10:12-16} easy",
+               "distance": [
+                  9,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} easy / PM: {8-10:12-16} easy with 40 min of (1 min at ~95% 5k effort, 3 min easy) in the middle",
+               "distance": [
+                  13,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 10,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "min"
+                           },
+                           "name": "Fast interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "95% 5k effort"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 3,
+                              "unit": "min"
+                           },
+                           "name": "Float recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 3,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{17-18:27-30} at 90% MP through rolling hills",
+               "distance": [
+                  19,
+                  20
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 18,
+                        "unit": "mi"
+                     },
+                     "name": "Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "90% MP through rolling hills"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "{5-7:8-12} very easy",
+               "distance": [
+                  6,
+                  6
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "Very easy run"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "AM: {4-5:6-8} very easy / PM: {8-10:12-16} easy with 5 × 25 sec strides",
+               "distance": [
+                  13,
+                  15
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "7 × (1200m at 105–107% MP, 400m at 95% MP)",
+               "distance": [
+                  11,
+                  11
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 7,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1200,
+                              "unit": "m"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "105–107% MP"
+                           }
+                        },
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 400,
+                              "unit": "m"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "95% MP"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{8-10:12-16} easy",
+               "distance": [
+                  9,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {5-6:8-10} easy progressing to moderate / PM: {6-8:10-12} moderate progressing to strong",
+               "distance": [
+                  12,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "e"
+                     }
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 8,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "e progressing to strong"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} easy* / PM: {8-10:12-16} easy",
+               "distance": [
+                  12,
+                  15
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{11-12:18-20} at 100% MP",
+               "distance": [
+                  14,
+                  15
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 12,
+                        "unit": "mi"
+                     },
+                     "name": "Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "100% MP"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "AM: {5-7:8-12} very easy / PM: {5-7:8-12} very easy*",
+               "distance": [
+                  14,
+                  15
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "AM: {4-5:6-8} very easy / PM: {8-10:12-16} easy with 30 min of (30 sec at ~5k effort, 2.5 min easy) in the middle",
+               "distance": [
+                  13,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 10,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 30,
+                              "unit": "sec"
+                           },
+                           "name": "Fast interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "5k effort"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 2.5,
+                              "unit": "min"
+                           },
+                           "name": "Float recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 4,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} easy / PM: {7-9:12-15} easy",
+               "distance": [
+                  12,
+                  13
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: (3 × 3 km at 108–110% MP with 4 min jog), then 1 km at 112–115% MP",
+               "distance": [
+                  10,
+                  12
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 12,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "108–110% MP with 4 min jog), then 1 km at 112–115% MP"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "AM: {5-7:8-12} very easy / PM: {6-8:10-12} very easy",
+               "distance": [
+                  12,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 8,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} easy / PM: {8-10:12-16} easy with 5 × 25 sec strides",
+               "distance": [
+                  13,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{5:8} at 90% MP + {5:8} at 92% MP + {5:8} at 94% MP + {5:8} at 96% MP",
+               "distance": [
+                  21.5,
+                  21.5
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "Tempo Step 1",
+                     "target": {
+                        "type": "pace",
+                        "value": "90% MP"
+                     }
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "Tempo Step 2",
+                     "target": {
+                        "type": "pace",
+                        "value": "92% MP"
+                     }
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "Tempo Step 3",
+                     "target": {
+                        "type": "pace",
+                        "value": "94% MP"
+                     }
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "Tempo Step 4",
+                     "target": {
+                        "type": "pace",
+                        "value": "96% MP"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "AM: {5-7:8-12} very easy / PM: {5-7:8-12} very easy*",
+               "distance": [
+                  3.5,
+                  6.5
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "AM: {4-5:6-8} very easy / PM: {7-9:12-15} easy",
+               "distance": [
+                  12,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{8-10:12-16} easy with 40 min of (1 min at ~95% 5k effort, 3 min easy) in the middle",
+               "distance": [
+                  9,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 10,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "min"
+                           },
+                           "name": "Fast interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "95% 5k effort"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 3,
+                              "unit": "min"
+                           },
+                           "name": "Float recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 3,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "10 × (1 km at 105% MP, 1 km at 90–92% MP)",
+               "distance": [
+                  16,
+                  16
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 10,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "105% MP"
+                           }
+                        },
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "90–92% MP"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: {5-7:8-12} very easy",
+               "distance": [
+                  9,
+                  11
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} easy / PM: {7-9:12-15} easy with 5 × 25 sec strides",
+               "distance": [
+                  12,
+                  13
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "6 × (3 km at 100% MP, 1 km at 90% MP)",
+               "distance": [
+                  18,
+                  19
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 6,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 3,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "100% MP"
+                           }
+                        },
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "90% MP"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-6:6-10} very easy / PM: {4-6:6-10} very easy",
+               "distance": [
+                  9,
+                  12
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: {7-9:12-15} easy",
+               "distance": [
+                  12,
+                  12
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy / PM: {8-10:12-16} easy with 30 min of (30 sec at ~5k effort, 2.5 min easy) in the middle",
+               "distance": [
+                  13,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 10,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 30,
+                              "unit": "sec"
+                           },
+                           "name": "Fast interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "5k effort"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 2.5,
+                              "unit": "min"
+                           },
+                           "name": "Float recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 4,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: 12 × 500m at 108–110% MP with 30 sec walk",
+               "distance": [
+                  9,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 12,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 500,
+                              "unit": "m"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "108–110% MP"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 30,
+                              "unit": "sec"
+                           },
+                           "name": "Walk recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} easy / PM: {8-10:12-16} easy",
+               "distance": [
+                  13,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{7-9:12-15} easy with 5 × 25 sec strides",
+               "distance": [
+                  8,
+                  9
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{20-22:32-35} at 95% MP",
+               "distance": [
+                  22,
+                  22
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 22,
+                        "unit": "mi"
+                     },
+                     "name": "Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "95% MP"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "Off or {4-6:6-10} very easy",
+               "distance": [
+                  3,
+                  4
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run (optional)"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: {6-8:10-12} very easy to easy",
+               "distance": [
+                  8,
+                  11
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 8,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {5-6:8-10} easy / PM: {8-10:12-16} easy with 30 min of (30 sec at 5k effort, 2.5 min moderate) in the middle",
+               "distance": [
+                  14,
+                  15
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 10,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 30,
+                              "unit": "sec"
+                           },
+                           "name": "Fast interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "5k effort"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 2.5,
+                              "unit": "min"
+                           },
+                           "name": "Float recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 4,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "4–5 × 2 km at 103–105% MP with 2–3 min walk",
+               "distance": [
+                  10,
+                  10
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "103–105% MP with 2–3 min walk"
+                     }
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: {8-10:12-16} very easy to easy",
+               "distance": [
+                  12,
+                  13
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 10,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{7-9:12-15} easy with 5 × 25 sec strides",
+               "distance": [
+                  8,
+                  9
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "6 × (4 km at 100% MP, 1 km at 90% MP)",
+               "distance": [
+                  20,
+                  20
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 6,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 4,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "100% MP"
+                           }
+                        },
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "90% MP"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {5-7:8-12} very easy / PM: {5-7:8-12} very easy*",
+               "distance": [
+                  0,
+                  5
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Very easy run"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: {7-9:12-15} easy",
+               "distance": [
+                  11,
+                  11
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{6-8:10-12} easy with 5 × 25 sec strides",
+               "distance": [
+                  8,
+                  8
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "8 × (1 km at 103–105% MP, 1 km at 92–94% MP)",
+               "distance": [
+                  14,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 8,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "103–105% MP"
+                           }
+                        },
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 1,
+                              "unit": "km"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "92–94% MP"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{5-7:8-12} very easy",
+               "distance": [
+                  6,
+                  7
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: {6-8:10-12} easy",
+               "distance": [
+                  10,
+                  11
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 8,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{7-9:12-15} easy",
+               "distance": [
+                  9,
+                  9
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 9,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "2 × 2 km at 107% MP with 3 min jog; 2–3 × 1 km at 108–110% MP with 2–3 min jog",
+               "distance": [
+                  12,
+                  12
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 12,
+                        "unit": "mi"
+                     },
+                     "name": "Paced run",
+                     "target": {
+                        "type": "pace",
+                        "value": "107% MP with 3 min jog; 2–3 × 1 km at 108–110% MP with 2–3 min jog"
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "workouts": [
+            {
+               "title": "{6-8:10-12} very easy",
+               "distance": [
+                  6,
+                  8
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 8,
+                        "unit": "mi"
+                     },
+                     "name": "Very easy run"
+                  }
+               ]
+            },
+            {
+               "title": "AM: {4-5:6-8} very easy* / PM: {7-9:12-15} easy with 5 × 25 sec strides",
+               "distance": [
+                  7,
+                  14
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 5,
+                        "unit": "mi"
+                     },
+                     "name": "AM: Very easy run"
+                  },
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 6,
+                        "unit": "mi"
+                     },
+                     "name": "PM: Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "6–8 × 3 min at 105–107% MP with 45 sec jog",
+               "distance": [
+                  8,
+                  9
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Warmup"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 8,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 3,
+                              "unit": "min"
+                           },
+                           "name": "Interval",
+                           "target": {
+                              "type": "pace",
+                              "value": "105–107% MP"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 45,
+                              "unit": "sec"
+                           },
+                           "name": "Jog recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "{6-8:10-12} easy",
+               "distance": [
+                  6,
+                  8
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 8,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{5-7:8-12} easy",
+               "distance": [
+                  5,
+                  7
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 7,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  }
+               ]
+            },
+            {
+               "title": "{4-5:6-8} easy with 5 × 25 sec strides",
+               "distance": [
+                  4,
+                  5
+               ],
+               "steps": [
+                  {
+                     "type": "warmup",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Easy run"
+                  },
+                  {
+                     "type": "repeat",
+                     "count": 5,
+                     "steps": [
+                        {
+                           "type": "active",
+                           "duration": {
+                              "value": 25,
+                              "unit": "sec"
+                           },
+                           "name": "Strides",
+                           "target": {
+                              "type": "pace",
+                              "value": "Fast"
+                           }
+                        },
+                        {
+                           "type": "rest",
+                           "duration": {
+                              "value": 60,
+                              "unit": "sec"
+                           },
+                           "name": "Recovery"
+                        }
+                     ]
+                  },
+                  {
+                     "type": "cooldown",
+                     "duration": {
+                        "value": 2,
+                        "unit": "mi"
+                     },
+                     "name": "Cooldown"
+                  }
+               ]
+            },
+            {
+               "title": "Marathon race",
+               "distance": [
+                  27,
+                  27
+               ],
+               "steps": [
+                  {
+                     "type": "active",
+                     "duration": {
+                        "value": 26.2,
+                        "unit": "mi"
+                     },
+                     "name": "Marathon race",
+                     "target": {
+                        "type": "pace",
+                        "value": "Marathon"
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
