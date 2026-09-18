@@ -168,4 +168,48 @@ describe("Plan", function () {
     expect(p.first).toEqual(dparse("04/06/2020")); // Week start shifts to previous Monday
     expect(p.getEvent(dparse("04/12/2020"))).toEqual(event1);
   });
+
+  it("Should rotate non-race weeks correctly while keeping final week intact", function () {
+    const m = new Map();
+    // 2 weeks of events: Week 1 (04/13 Mon - 04/19 Sun), Week 2 (04/20 Mon - 04/26 Sun)
+    const days = [
+      "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"
+    ];
+    // Week 1
+    days.forEach((day, idx) => {
+      const d = dparse(`04/${13 + idx}/2020`);
+      m.set(d, { desc: `W1-${day}` });
+    });
+    // Week 2 (Race Week)
+    days.forEach((day, idx) => {
+      const d = dparse(`04/${20 + idx}/2020`);
+      m.set(d, { desc: `W2-${day}` });
+    });
+
+    let p = new DateGrid<Event>(m, WeekStartsOnValues.Monday);
+    expect(p.weekCount).toEqual(2);
+
+    // Rotate right by 1 (Sunday moves to Monday, Saturday moves to Sunday)
+    p.rotateNonRaceWeeks(1);
+
+    // Week 1 should be rotated: Mon has W1-Sun, Tue has W1-Mon, ..., Sun has W1-Sat
+    expect(p.getEvent(dparse("04/13/2020"))?.desc).toEqual("W1-Sun");
+    expect(p.getEvent(dparse("04/14/2020"))?.desc).toEqual("W1-Mon");
+    expect(p.getEvent(dparse("04/15/2020"))?.desc).toEqual("W1-Tue");
+    expect(p.getEvent(dparse("04/16/2020"))?.desc).toEqual("W1-Wed");
+    expect(p.getEvent(dparse("04/17/2020"))?.desc).toEqual("W1-Thu");
+    expect(p.getEvent(dparse("04/18/2020"))?.desc).toEqual("W1-Fri");
+    expect(p.getEvent(dparse("04/19/2020"))?.desc).toEqual("W1-Sat");
+
+    // Week 2 (Race Week) should be unchanged!
+    expect(p.getEvent(dparse("04/20/2020"))?.desc).toEqual("W2-Mon");
+    expect(p.getEvent(dparse("04/25/2020"))?.desc).toEqual("W2-Sat");
+    expect(p.getEvent(dparse("04/26/2020"))?.desc).toEqual("W2-Sun");
+
+    // Rotate back by 1 (direction -1)
+    p.rotateNonRaceWeeks(-1);
+    expect(p.getEvent(dparse("04/13/2020"))?.desc).toEqual("W1-Mon");
+    expect(p.getEvent(dparse("04/18/2020"))?.desc).toEqual("W1-Sat");
+    expect(p.getEvent(dparse("04/19/2020"))?.desc).toEqual("W1-Sun");
+  });
 });

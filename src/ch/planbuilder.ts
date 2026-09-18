@@ -127,3 +127,20 @@ export function offset(racePlan: RacePlan, days: number): RacePlan {
   newPlan.dateGrid.offset(days);
   return newPlan;
 }
+
+export function shiftMeeSchedule(
+  racePlan: RacePlan,
+  direction: number = 1,
+): RacePlan {
+  const newPlan: RacePlan = {
+    planId: racePlan.planId,
+    planDates: racePlan.planDates,
+    raceType: racePlan.raceType,
+    dateGrid: racePlan.dateGrid.clone(),
+    sourceUnits: racePlan.sourceUnits,
+    description: racePlan.description,
+    sourceUrl: racePlan.sourceUrl,
+  };
+  newPlan.dateGrid.rotateNonRaceWeeks(direction);
+  return newPlan;
+}

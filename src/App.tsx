@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { repo } from "./ch/planrepo";
 import { endOfWeek, addWeeks, isAfter } from "date-fns";
 import { RacePlan } from "./ch/dategrid";
-import { build, swap, swapDow, offset } from "./ch/planbuilder";
+import { build, swap, swapDow, offset, shiftMeeSchedule } from "./ch/planbuilder";
 import { CalendarGrid } from "./components/CalendarGrid";
 import { toIcal } from "./ch/icalservice";
 import { toCsv } from "./ch/csvService";
@@ -41,6 +41,8 @@ const App = () => {
   var [selectedPlan, setSelectedPlan] = useState(repo.find(p || ""));
   var [racePlan, setRacePlan] = useState<RacePlan | undefined>(undefined);
   var [undoHistory, setUndoHistory] = useState([] as RacePlan[]);
+  const [isSundayLongRun, setIsSundayLongRun] = useState(false);
+  const isMeePlan = selectedPlan[0]?.startsWith("mee_");
   var [weekStartsOn, setWeekStartsOn] = useState<WeekStartsOn>(
     s === 0 || s === 1 || s === 6 ? s : WeekStartsOnValues.Monday,
   );
@@ -149,6 +151,7 @@ const App = () => {
   const onSelectedPlanChange = async (plan: PlanSummary) => {
     const racePlan = build(await repo.fetch(plan), planEndDate, weekStartsOn);
     setSelectedPlan(plan);
+    setIsSundayLongRun(false);
     setRacePlan(racePlan);
     setUndoHistory([racePlan]);
     setq(getParams(selectedUnits, plan, planEndDate, weekStartsOn));
@@ -202,6 +205,16 @@ const App = () => {
     }
   }
 
+  function toggleMeeScheduleHandler() {
+    if (racePlan) {
+      const nextShift = !isSundayLongRun;
+      const newRacePlan = shiftMeeSchedule(racePlan, nextShift ? 1 : -1);
+      setIsSundayLongRun(nextShift);
+      setRacePlan(newRacePlan);
+      setUndoHistory([...undoHistory, newRacePlan]);
+    }
+  }
+
   function downloadIcalHandler() {
     if (racePlan) {
       // Get the base URL including the subpath but excluding the hash/query
@@ -226,7 +239,8 @@ const App = () => {
     if (undoHistory?.length >= 0) {
       undoHistory.pop();
     }
-    setRacePlan(undoHistory[undoHistory.length - 1]);
+    const prevPlan = undoHistory[undoHistory.length - 1];
+    setRacePlan(prevPlan);
   }
 
   return (
@@ -266,6 +280,11 @@ const App = () => {
           weekStartsOn={weekStartsOn}
           changeHandler={onWeekStartsOnChanged}
         />
+        {isMeePlan && (
+          <button className="app-button" onClick={toggleMeeScheduleHandler}>
+            {isSundayLongRun ? "Shift Long Run to Saturday" : "Shift Long Run to Sunday"}
+          </button>
+        )}
       </div>
       <div className="main-ui">
         {racePlan && (

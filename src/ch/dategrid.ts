@@ -255,4 +255,36 @@ export class DateGrid<T> {
       );
     }
   }
+
+  rotateNonRaceWeeks(direction: number = 1) {
+    const weeks = this.weeks;
+    for (let i = 0; i < weeks.length - 1; i++) {
+      const days = weeks[i].days;
+      if (days.length !== 7) continue;
+      const events = days.map((d) => this.getEvent(d.date));
+      const shifted =
+        direction === 1
+          ? [
+              events[6],
+              events[0],
+              events[1],
+              events[2],
+              events[3],
+              events[4],
+              events[5],
+            ]
+          : [
+              events[1],
+              events[2],
+              events[3],
+              events[4],
+              events[5],
+              events[6],
+              events[0],
+            ];
+      for (let j = 0; j < 7; j++) {
+        this.setEvent(days[j].date, shifted[j]);
+      }
+    }
+  }
 }
