@@ -27,12 +27,13 @@ import { toFit } from "./ch/fitservice";
 import { render } from "./ch/rendering";
 
 const App = () => {
-  const [{ u, p, d, s, w }, setq] = useQueryParams({
+  const [{ u, p, d, s, w, m }, setq] = useQueryParams({
     u: StringParam,
     p: StringParam,
     d: DateParam,
     s: NumberParam,
     w: NumberParam, // workout index for deep-linking
+    m: NumberParam, // marathon excellence sunday long run shift
   });
 
   const [selectedUnits, setSelectedUnits] = useState<Units>(
@@ -41,8 +42,8 @@ const App = () => {
   var [selectedPlan, setSelectedPlan] = useState(repo.find(p || ""));
   var [racePlan, setRacePlan] = useState<RacePlan | undefined>(undefined);
   var [undoHistory, setUndoHistory] = useState([] as RacePlan[]);
-  const [isSundayLongRun, setIsSundayLongRun] = useState(false);
   const isMeePlan = selectedPlan[0]?.startsWith("mee_");
+  const [isSundayLongRun, setIsSundayLongRun] = useState(isMeePlan && m === 1);
   var [weekStartsOn, setWeekStartsOn] = useState<WeekStartsOn>(
     s === 0 || s === 1 || s === 6 ? s : WeekStartsOnValues.Monday,
   );
@@ -53,7 +54,7 @@ const App = () => {
   );
 
   useMountEffect(() => {
-    initialLoad(selectedPlan, planEndDate, selectedUnits, weekStartsOn);
+    initialLoad(selectedPlan, planEndDate, selectedUnits, weekStartsOn, isMeePlan && m === 1);
   });
 
   const [, forceUpdate] = React.useReducer((x) => x + 1, 0);
@@ -71,21 +72,25 @@ const App = () => {
     const unitsFromUrl = u === "mi" || u === "km" ? u : getLocaleUnits();
     const weekStartsOnFromUrl = s === 0 || s === 1 || s === 6 ? s : WeekStartsOnValues.Monday;
     const dateFromUrl = d && isAfter(d, new Date()) ? d : planEndDate;
+    const isMee = planFromUrl[0]?.startsWith("mee_");
+    const sundayLongRunFromUrl = isMee && m === 1;
 
     if (
       p !== selectedPlan[0] ||
       unitsFromUrl !== selectedUnits ||
       weekStartsOnFromUrl !== weekStartsOn ||
-      (d && d.getTime() !== planEndDate.getTime())
+      (d && d.getTime() !== planEndDate.getTime()) ||
+      sundayLongRunFromUrl !== isSundayLongRun
     ) {
       setSelectedPlan(planFromUrl);
       setSelectedUnits(unitsFromUrl);
       setWeekStartsOn(weekStartsOnFromUrl);
+      setIsSundayLongRun(sundayLongRunFromUrl);
       if (d) setPlanEndDate(d);
       
-      initialLoad(planFromUrl, dateFromUrl, unitsFromUrl, weekStartsOnFromUrl);
+      initialLoad(planFromUrl, dateFromUrl, unitsFromUrl, weekStartsOnFromUrl, sundayLongRunFromUrl);
     }
-  }, [p, d, u, s]);
+  }, [p, d, u, s, m]);
 
   React.useEffect(() => {
     if (racePlan && w !== undefined && w !== null) {
@@ -127,12 +132,14 @@ const App = () => {
     plan: PlanSummary,
     date: Date,
     weekStartsOn: WeekStartsOn,
+    sundayLongRun?: boolean,
   ) => {
     return {
       u: units,
       p: plan[0],
       d: date,
       s: weekStartsOn,
+      m: sundayLongRun ? 1 : undefined,
     };
   };
 
@@ -141,11 +148,16 @@ const App = () => {
     endDate: Date,
     units: Units,
     weekStartsOn: WeekStartsOn,
+    sundayLongRun?: boolean,
   ) => {
-    const racePlan = build(await repo.fetch(plan), endDate, weekStartsOn);
+    let racePlan = build(await repo.fetch(plan), endDate, weekStartsOn);
+    const shouldShift = plan[0]?.startsWith("mee_") && (sundayLongRun ?? (m === 1));
+    if (shouldShift) {
+      racePlan = shiftMeeSchedule(racePlan, 1);
+    }
     setRacePlan(racePlan);
     setUndoHistory([...undoHistory, racePlan]);
-    setq(getParams(units, plan, endDate, weekStartsOn));
+    setq(getParams(units, plan, endDate, weekStartsOn, shouldShift), "replaceIn");
   };
 
   const onSelectedPlanChange = async (plan: PlanSummary) => {
@@ -154,28 +166,34 @@ const App = () => {
     setIsSundayLongRun(false);
     setRacePlan(racePlan);
     setUndoHistory([racePlan]);
-    setq(getParams(selectedUnits, plan, planEndDate, weekStartsOn));
+    setq(getParams(selectedUnits, plan, planEndDate, weekStartsOn, false));
   };
 
   const onSelectedEndDateChange = async (date: Date) => {
-    const racePlan = build(await repo.fetch(selectedPlan), date, weekStartsOn);
+    let racePlan = build(await repo.fetch(selectedPlan), date, weekStartsOn);
+    if (isSundayLongRun && isMeePlan) {
+      racePlan = shiftMeeSchedule(racePlan, 1);
+    }
     setPlanEndDate(date);
     setRacePlan(racePlan);
     setUndoHistory([racePlan]);
-    setq(getParams(selectedUnits, selectedPlan, date, weekStartsOn));
+    setq(getParams(selectedUnits, selectedPlan, date, weekStartsOn, isSundayLongRun));
   };
 
   const onSelectedUnitsChanged = (u: Units) => {
     setSelectedUnits(u);
-    setq(getParams(u, selectedPlan, planEndDate, weekStartsOn));
+    setq(getParams(u, selectedPlan, planEndDate, weekStartsOn, isSundayLongRun));
   };
 
   const onWeekStartsOnChanged = async (v: WeekStartsOn) => {
-    const racePlan = build(await repo.fetch(selectedPlan), planEndDate, v);
+    let racePlan = build(await repo.fetch(selectedPlan), planEndDate, v);
+    if (isSundayLongRun && isMeePlan) {
+      racePlan = shiftMeeSchedule(racePlan, 1);
+    }
     setWeekStartsOn(v);
     setRacePlan(racePlan);
     setUndoHistory([racePlan]);
-    setq(getParams(selectedUnits, selectedPlan, planEndDate, v));
+    setq(getParams(selectedUnits, selectedPlan, planEndDate, v, isSundayLongRun));
   };
 
   const onOffsetPlan = (days: number) => {
@@ -185,7 +203,7 @@ const App = () => {
       const newEndDate = newRacePlan.planDates.planEndDate;
       setPlanEndDate(newEndDate);
       setUndoHistory([...undoHistory, newRacePlan]);
-      setq(getParams(selectedUnits, selectedPlan, newEndDate, weekStartsOn));
+      setq(getParams(selectedUnits, selectedPlan, newEndDate, weekStartsOn, isSundayLongRun));
     }
   };
 
@@ -212,6 +230,7 @@ const App = () => {
       setIsSundayLongRun(nextShift);
       setRacePlan(newRacePlan);
       setUndoHistory([...undoHistory, newRacePlan]);
+      setq(getParams(selectedUnits, selectedPlan, planEndDate, weekStartsOn, nextShift));
     }
   }
 
@@ -241,6 +260,10 @@ const App = () => {
     }
     const prevPlan = undoHistory[undoHistory.length - 1];
     setRacePlan(prevPlan);
+    if (prevPlan) {
+      setIsSundayLongRun(!!prevPlan.isSundayLongRun);
+      setq(getParams(selectedUnits, selectedPlan, prevPlan.planDates.planEndDate, weekStartsOn, prevPlan.isSundayLongRun));
+    }
   }
 
   return (

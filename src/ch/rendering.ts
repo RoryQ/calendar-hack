@@ -149,7 +149,7 @@ export function render(
   to: Units,
 ): [string, string] {
   // [title, desc]
-  let title = handle_conversions(input.title, from, to);
-  let desc = handle_conversions(input.desc, from, to);
+  let title = input?.title ? handle_conversions(input.title, from, to) : "";
+  let desc = input?.desc ? handle_conversions(input.desc, from, to) : "";
   return [title, desc];
 }

@@ -47,6 +47,7 @@ export function toIcal(plan: RacePlan, units: Units, baseUrl?: string): string |
       weekDesc += " Distance: " + renderDist(distance, units, units);
     }
     events.push({
+      uid: `${plan.planId}-week-${i}@calendar-hack`,
       title: weekDesc,
       description: weekDesc,
       start: toDate(currWeek.days[0].date),
@@ -78,14 +79,18 @@ export function toIcal(plan: RacePlan, units: Units, baseUrl?: string): string |
              const dateStr = `${d.getFullYear()}-${(d.getMonth() + 1).toString().padStart(2, '0')}-${d.getDate().toString().padStart(2, '0')}`;
              searchParams.set("d", dateStr);
              searchParams.set("s", plan.dateGrid.weekStartsOn.toString());
+             if (plan.isSundayLongRun) {
+               searchParams.set("m", "1");
+             }
              searchParams.set("w", workoutCounter.toString());
              
-             const finalUrl = `${url.origin}${url.pathname}#?${searchParams.toString()}`;
+             const finalUrl = `${url.origin}${url.pathname}#/?${searchParams.toString()}`;
              desc += "\n\nDownload Garmin FIT file:\n" + finalUrl;
            }
         }
 
         events.push({
+          uid: `${plan.planId}-workout-${workoutCounter}@calendar-hack`,
           title: title,
           description: desc,
           start: toDate(currWorkout.date),
@@ -97,7 +102,7 @@ export function toIcal(plan: RacePlan, units: Units, baseUrl?: string): string |
   }
   let res = createEvents(events);
   if (res.error) {
-    console.log("Error creating iCal events: " + res.error);
+    console.log("Error creating iCal events: ", res.error);
     return undefined;
   }
   return res.value;

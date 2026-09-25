@@ -72,6 +72,7 @@ export function build(
     sourceUnits: trainingPlan.units,
     description: trainingPlan.description,
     sourceUrl: trainingPlan.source,
+    isSundayLongRun: false,
   };
 }
 
@@ -84,6 +85,7 @@ export function swap(racePlan: RacePlan, d1: Date, d2: Date): RacePlan {
     sourceUnits: racePlan.sourceUnits,
     description: racePlan.description,
     sourceUrl: racePlan.sourceUrl,
+    isSundayLongRun: racePlan.isSundayLongRun,
   };
   newPlan.dateGrid.swap(d1, d2);
   return newPlan;
@@ -102,6 +104,7 @@ export function swapDow(
     sourceUnits: racePlan.sourceUnits,
     description: racePlan.description,
     sourceUrl: racePlan.sourceUrl,
+    isSundayLongRun: racePlan.isSundayLongRun,
   };
   newPlan.dateGrid.swapDow(dow1, dow2);
   return newPlan;
@@ -123,6 +126,7 @@ export function offset(racePlan: RacePlan, days: number): RacePlan {
     sourceUnits: racePlan.sourceUnits,
     description: racePlan.description,
     sourceUrl: racePlan.sourceUrl,
+    isSundayLongRun: racePlan.isSundayLongRun,
   };
   newPlan.dateGrid.offset(days);
   return newPlan;
@@ -140,6 +144,7 @@ export function shiftMeeSchedule(
     sourceUnits: racePlan.sourceUnits,
     description: racePlan.description,
     sourceUrl: racePlan.sourceUrl,
+    isSundayLongRun: direction === 1,
   };
   newPlan.dateGrid.rotateNonRaceWeeks(direction);
   return newPlan;

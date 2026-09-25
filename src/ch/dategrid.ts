@@ -41,6 +41,7 @@ export interface RacePlan {
   sourceUnits: Units;
   description: string;
   sourceUrl: string;
+  isSundayLongRun?: boolean;
 }
 
 // A grid of dates. Always represents one or more contiguous weeks.
